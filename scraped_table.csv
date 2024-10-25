@@ -1,0 +1,957 @@
+Name,Set,Types,Cost,Text,Actions / Villagers,Cards,Buys,Coins / Coffers,Trash / Return,Exile,Junk,Gain,Victory Points
+Adventurer,"Base, 1E",Action,6,"Reveal cards from your deck until you reveal 2 Treasure cards. Put 
+those Treasure cards into your hand and discard the other revealed 
+cards.",,+2,,,,,,,
+Artisan,"Base, 2E",Action,6,Gain a card to your hand costing up to .Put a card from your hand onto your deck.,,"(+1), -1",,,,,,1,
+Bandit,"Base, 2E",Action - Attack,5,"Gain a Gold. Each other player reveals the top 2 cards of their 
+deck, trashes a revealed Treasure other than Copper, and discards the 
+rest.",,,,,,,,1,
+Bureaucrat,Base,Action - Attack,4,"Gain a Silver onto your deck. Each other player reveals a Victory 
+card from their hand and puts it onto their deck (or reveals a hand with
+ no Victory cards).",,,,,,,,1,
+Cellar,Base,Action,2,"+1 ActionDiscard any number of cards, then draw that many.",+1,"-X, +X",,,,,,,
+Chancellor,"Base, 1E",Action,3,+You may immediately put your deck into your discard pile.,,,,+,,,,,
+Chapel,Base,Action,2,Trash up to 4 cards from your hand.,,,,,0-4,,,,
+Council Room,Base,Action,5,+4 Cards+1 BuyEach other player draws a card.,,+4,+1,,,,,,
+Feast,"Base, 1E",Action,4,Trash this card. Gain a card costing up to .,,,,,Self,,,1,
+Festival,Base,Action,5,+2 Actions+1 Buy+,+2,,+1,+,,,,,
+Gardens,Base,Victory,4,Worth 1  per 10 cards you have (round down).,,,,,,,,,X
+Harbinger,"Base, 2E",Action,3,+1 Card+1 ActionLook through your discard pile. You may put a card from it onto your deck.,+1,+1,,,,,,,
+Laboratory,Base,Action,5,+2 Cards+1 Action,+1,+2,,,,,,,
+Library,Base,Action,5,"Draw until you have 7 cards in hand, skipping any Action cards you choose to; set those aside, discarding them afterwards.",,=7,,,,,,,
+Market,Base,Action,5,+1 Card+1 Action+1 Buy+,+1,+1,+1,+,,,,,
+Merchant,"Base, 2E",Action,3,"+1 Card+1 ActionThe first time you play a Silver this turn, +.",+1,+1,,!+,,,,,
+Militia,Base,Action - Attack,4,+Each other player discards down to 3 cards in hand.,,,,+,,,,,
+Mine,Base,Action,5,You may trash a Treasure card from your hand. Gain a Treasure card to your hand costing up to  more than it.,,!(+1),,,1?,,,!1,
+Moat,Base,Action - Reaction,2,"+2 CardsWhen another player plays an Attack card, you may first reveal this from your hand, to be unaffected by it.",,+2,,,,,,,
+Moneylender,Base,Action,4,You may trash a Copper from your hand for +.,,,,!+,1?,,,,
+Poacher,"Base, 2E",Action,4,+1 Card+1 Action+Discard a card per empty Supply pile.,+1,"+1, -X",,+,,,,,
+Remodel,Base,Action,4,Trash a card from your hand. Gain a card costing up to  more than it.,,,,,1,,,!1,
+Sentry,"Base, 2E",Action,5,+1 Card+1 ActionLook at the top 2 cards of your deck. Trash and/or discard any number of them. Put the rest back on top in any order.,+1,+1,,,0-2?,,,,
+Smithy,Base,Action,4,+3 Cards,,+3,,,,,,,
+Spy,"Base, 1E",Action - Attack,4,"+1 Card+1 ActionEach player (including you) reveals the top card of his deck and either discards it or puts it back, your choice.",+1,+1,,,,,,,
+Thief,"Base, 1E",Action - Attack,4,"Each other player reveals the top 2 cards of his deck.If they 
+revealed any Treasure cards, they trash one of them that you choose. You
+ may gain any or all of these trashed cards. They discard the other 
+revealed cards.",,,,,,,,X,
+Throne Room,Base,Action,4,You may play an Action card from your hand twice.,P2?,,,,,,,,
+Vassal,"Base, 2E",Action,3,"+Discard the top card of your deck. If it's an Action card, you may play it.",!P1?,,,+,,,,,
+Village,Base,Action,3,+1 Card+2 Actions,+2,+1,,,,,,,
+Witch,Base,Action - Attack,5,+2 CardsEach other player gains a Curse.,,+2,,,,,1,,
+Woodcutter,"Base, 1E",Action,3,+1 Buy+,,,+1,+,,,,,
+Workshop,Base,Action,3,Gain a card costing up to .,,,,,,,,1,
+Copper,Base,Treasure,0,1,,,,+,,,,,
+Silver,Base,Treasure,3,2,,,,+,,,,,
+Gold,Base,Treasure,6,3,,,,+,,,,,
+Estate,Base,Victory,2,1,,,,,,,,,1
+Duchy,Base,Victory,5,3,,,,,,,,,3
+Province,Base,Victory,8,6,,,,,,,,,6
+Curse,Base,Curse,0,–1,,,,,,,,,-1
+Baron,Intrigue,Action,4,"+1 BuyYou may discard an Estate for +. If you don't, gain an Estate.",,-1?,+1,!+,,,,!1,
+Bridge,Intrigue,Action,4,"+1 Buy+This turn, cards (everywhere) cost  less.",,,+1,"+, R1",,,,,
+Conspirator,Intrigue,Action,4,"+If you’ve played 3 or more Actions this turn (counting this), +1 Card and +1 Action.",!+1,!+1,,+,,,,,
+Coppersmith,"Intrigue, 1E",Action,4,Copper produces an extra  this turn.,,,,+,,,,,
+Courtier,"Intrigue, 2E",Action,5,"Reveal a card from your hand. For each type it has (Action, Attack, etc.), choose one: +1 Action; or +1 Buy; or +; or gain a Gold. The choices must be different.",+1?,,+1?,+?,,,,1?,
+Courtyard,Intrigue,Action,2,+3 CardsPut a card from your hand onto your deck.,,"+3, -1",,,,,,,
+Diplomat,"Intrigue, 2E",Action - Reaction,4,"+2 CardsIf you have 5 or fewer cards in hand (after drawing), +2 Actions.When
+ another player plays an Attack card, you may first reveal this from a 
+hand of 5 or more cards, to draw 2 cards then discard 3.",!+2,"+2**+2, **-3",,,,,,,
+Duke,Intrigue,Victory,5,Worth 1  per Duchy you have.,,,,,,,,,X
+Great Hall,"Intrigue, 1E",Action - Victory,3,+1 Card+1 Action1,+1,+1,,,,,,,1
+Harem  Farm,Intrigue,Treasure - Victory,6,2,,,,+,,,,,2
+Ironworks,Intrigue,Action,4,"Gain a card costing up to . If the gained card is an...Action card, +1 ActionTreasure card, +Victory card, +1 Card",!+1,!+1,,!+,,,,1,
+Lurker,"Intrigue, 2E",Action,2,+1 ActionChoose one: Trash an Action card from the Supply; or gain an Action card from the trash.,+1,,,,1 Supply?,,,1?,
+Masquerade,Intrigue,Action,3,"+2 CardsEach player with any cards in hand passes 
+one to the next such player to their left, at once. Then you may trash a
+ card from your hand.",,"+2, -1",,,1?,,"1?, !Self",1,
+Mill,"Intrigue, 2E",Action - Victory,4,"+1 Card+1 ActionYou may discard 2 cards, for +.1",+1,"+1, - 0-2?(X)",,!+,,,,,1
+Mining Village,Intrigue,Action,4,+1 Card+2 ActionsYou may trash this for +.,+2,+1,,!+,Self?,,,,
+Minion,Intrigue,Action - Attack,5,"+1 ActionChoose one: +; or discard your hand, +4 Cards, and each other player with at least 5 cards in hand discards their hand and draws 4 cards.",+1,-X +4 ?,,+?,,,,,
+Nobles,Intrigue,Action - Victory,6,Choose one: +3 Cards; or +2 Actions.2,+2?,+3?,,,,,,,2
+Patrol,"Intrigue, 2E",Action,5,+3 CardsReveal the top 4 cards of your deck. Put the Victory cards and Curses into your hand. Put the rest back in any order.,,+ 3-7,,,,,,,
+Pawn,Intrigue,Action,2,Choose two: +1 Card; +1 Action; +1 Buy; +. The choices must be different.,+1?,+1?,+1?,+?,,,,,
+Replace,"Intrigue, 2E",Action - Attack,5,"Trash a card from your hand. Gain a card costing up to 
+ more than it. If the gained card is an Action or Treasure, put it onto 
+your deck; if it's a Victory card, each other player gains a Curse.",,,,,1,,!1,1,
+Saboteur,"Intrigue, 1E",Action - Attack,5,Each other player reveals cards from the top of their deck until revealing one costing  or more. They trash that card and may gain a card costing at most  less than it. They discard the other revealed cards.,,,,,,,!1,,
+Scout,"Intrigue, 1E",Action,4,"+1 ActionReveal the top 4 cards of your deck. Put 
+the revealed Victory cards into your hand. Put the other cards on top of
+ your deck in any order.",+1,+ 0-4,,,,,,,
+Secret Chamber,"Intrigue, 1E",Action - Reaction,2,"Discard any number of cards. + per card discarded.When
+ another player plays an Attack card, you may reveal this from your 
+hand. If you do, +2 Cards, then put 2 cards from your hand on top 
+of your deck.",,-X,,+,,,,,
+Secret Passage,"Intrigue, 2E",Action,4,+2 Cards+1 ActionTake a card from your hand and put it anywhere in your deck.,+1,"+2, -1",,,,,,,
+Shanty Town,Intrigue,Action,3,"+2 ActionsReveal your hand. If you have no Action cards in hand, +2 Cards.",+2,+2?,,,,,,,
+Steward,Intrigue,Action,3,Choose one: +2 Cards; or +; or trash 2 cards from your hand.,,+2?,,+?,2?,,,,
+Swindler,Intrigue,Action - Attack,3,+Each other player trashes the top card of their deck and gains a card with the same cost that you choose.,,,,+,,,!1,,
+Torturer,Intrigue,Action - Attack,5,"+3 CardsEach other player either discards 2 cards or gains a Curse to their hand, their choice. (They may pick an option they can't do.)",,+3,,,,,1?,,
+Trading Post,Intrigue,Action,5,"Trash 2 cards from your hand. If you did, gain a Silver to your hand.",,!(+1),,,2,,,!1,
+Tribute,"Intrigue, 1E",Action,5,"The player to your left reveals then discards the top 2 cards of his
+ deck. For each differently named card revealed, if it is an...Action Card, +2 ActionsTreasure Card, +Victory Card, +2 Cards",+2Z,+2Y,,+,,,,,
+Upgrade,Intrigue,Action,5,+1 Card+1 ActionTrash a card from your hand. Gain a card costing exactly  more than it.,+1,+1,,,1,,,1,
+Wishing Well,Intrigue,Action,3,"+1 Card+1 ActionName a card, then reveal the top card of your deck. If you named it, put it into your hand.",+1,"+1, !+1",,,,,,,
+Ambassador,"Seaside, 1E",Action - Attack,3,"Reveal a card from your hand. Return up to 2 copies of it from your 
+hand to the Supply. Then each other player gains a copy of it.",,,,,0-2?,,!1,,
+Astrolabe,"Seaside, 2E",Treasure - Duration,3,Now and at the start of your next turn:+1 Buy,,,"+1, N +1","+, N +",,,,,
+Bazaar,Seaside,Action,5,+1 Card+2 Actions+,+2,+1,,+,,,,,
+Blockade,"Seaside, 2E",Action - Duration - Attack,4,"Gain a card costing up to , setting it aside.At
+ the start of your next turn, put it into your hand. While it's set 
+aside, when another player gains a copy of it on their turn, they gain a
+ Curse.",,N +1,,,,,**1?,1,
+Caravan,Seaside,Action - Duration,4,"+1 Card+1 ActionAt the start of your next turn, +1 Card.",+1,"+1, N +1",,,,,,,
+Corsair,"Seaside, 2E",Action - Duration - Attack,5,"+At the start of your next turn, +1 Card. Until then, each other player trashes the first Silver or Gold they play each turn.",,N +1,,+,,,,,
+Cutpurse,Seaside,Action - Attack,4,+Each other player discards a Copper (or reveals a hand with no Copper).,,,,+,,,,,
+Embargo,"Seaside, 1E",Action,2,"+Trash
+ this to add an Embargo token to a Supply pile. (For the rest of the 
+game, when a player buys a card from that pile, they gain a Curse.)",,,,+,Self,,**1?,,
+Explorer,"Seaside, 1E",Action,5,"You may reveal a Province from your hand. If you do, gain a Gold to your hand. If you don't, gain a Silver to your hand.",,!(+1),,,,,,!1,
+Fishing Village,Seaside,Action - Duration,3,+2 Actions+At the start of your next turn: +1 Action and +.,"+2, N +1",,,"+, N +",,,,,
+Ghost Ship,"Seaside, 1E",Action - Attack,5,+2 CardsEach other player with 4 or more cards in hand puts cards from their hand onto their deck until they have 3 cards in hand.,,+2,,,,,,,
+Haven,Seaside,Action - Duration,2,"+1 Card+1 ActionSet aside a card from your hand face down (under this). At the start of your next turn, put it into your hand.",+1,"+1, -1, N +1",,,,,,,
+Island,Seaside,Action - Victory,4,Put this and a card from your hand onto your Island mat.2,,,,,"1, Self",,,,2
+Lighthouse,Seaside,Action - Duration,2,"+1 Action+At the start of your next turn, +.Until then, when another player plays an Attack card, it doesn't affect you.",+1,,,"+, N +",,,,,
+Lookout,Seaside,Action,3,+1 ActionLook at the top 3 cards of your deck. Trash one of them. Discard one of them. Put the other one back on top of your deck.,+1,,,,1,,,,
+Merchant Ship,Seaside,Action - Duration,5,Now and at the start of your next turn: +.,,,,"+, N +",,,,,
+Monkey,"Seaside, 2E",Action - Duration,3,"Until your next turn, when the player to your right gains a card, +1 Card.At the start of your next turn, +1 Card.",,"**+1, N +1",,,,,,,
+Native Village,Seaside,Action,2,"+2 ActionsChoose one: Put the top card of your deck 
+face down on your Native Village mat (you may look at those cards at any
+ time); or put all the cards from your mat into your hand.",+2,+X?,,,,,,,
+Navigator,"Seaside, 1E",Action,4,"+Look at the top 5 cards of your deck. Either discard them all, or put them back in any order.",,,,+,,,,,
+Outpost,Seaside,Action - Duration,5,You only draw 3 cards for your next hand. Take an extra turn after this one (but not a 3rd turn in a row).,,,,,,,,,
+Pearl Diver,"Seaside, 1E",Action,2,+1 Card+1 ActionLook at the bottom card of your deck. You may put it on top.,+1,+1,,,,,,,
+Pirate,"Seaside, 2E",Action - Duration - Reaction,5,"At the start of your next turn, gain a Treasure costing up to  to your hand.When any player gains a Treasure, you may play this from your hand.",**Pself,N (+1),,,,,,N 1,
+Pirate Ship,"Seaside, 1E",Action - Attack,4,"Choose one: +
+ per Coin token on your Pirate Ship mat; or each other player reveals 
+the top 2 cards of their deck, trashes one of those Treasures that you 
+choose, and discards the rest, and then if anyone trashed a Treasure you
+ add a Coin token to your Pirate Ship mat.",,,,+?,,,,,
+Sailor,"Seaside, 2E",Action - Duration,4,"+1 ActionOnce this turn, when you gain a Duration card, you may play it.At the start of your next turn, + and you may trash a card from your hand.","+1, !P1?",,,N +,N 1?,,,,
+Salvager,Seaside,Action,4,+1 BuyTrash a card from your hand. + per  it costs.,,,+1,+,1,,,,
+Sea Chart,"Seaside, 2E",Action,3,"+1 Card+1 ActionReveal the top card of your deck. If you have a copy of it in play, put it into your hand.",+1,"+1, !+1",,,,,,,
+Sea Hag,"Seaside, 1E",Action - Attack,4,"Each other player discards the top card of their deck, then gains a Curse onto their deck.",,,,,,,1,,
+Sea Witch,"Seaside, 2E",Action - Duration - Attack,5,"+2 CardsEach other player gains a Curse.At the start of your next turn, +2 Cards, then discard 2 cards.",,"+2, N +2, N -2",,,,,1,,
+Smugglers,Seaside,Action,3,Gain a copy of a card costing up to  that the player to your right gained on their last turn.,,,,,,,,1,
+Tactician,Seaside,Action - Duration,5,"If you have at least one card in hand: Discard your hand, and at the start of your next turn, +5 Cards, +1 Action, and +1 Buy.",!N +1,"-X, !N +5",!N +1,,,,,,
+Tide Pools,"Seaside, 2E",Action - Duration,4,"+3 Cards+1 ActionAt the start of your next turn, discard 2 cards.",+1,"+3, N -2",,,,,,,
+Treasure Map,Seaside,Action,4,"Trash this and a Treasure Map from your hand. If you trashed two Treasure Maps, gain 4 Golds onto your deck.",,,,,"1?, Self",,,!4,
+Treasury,Seaside,Action,5,"+1 Card+1 Action+At the end of your Buy phase this turn, if you didn't gain a Victory card in it, you may put this onto your deck.",+1,+1,,+,,,,,
+Warehouse,Seaside,Action,3,+3 Cards+1 ActionDiscard 3 cards.,+1,"+3, -3",,,,,,,
+Wharf,Seaside,Action - Duration,5,Now and at the start of your next turn: +2 Cards and +1 Buy.,,"+2, N +2","+1, N +1",,,,,,
+Alchemist,Alchemy,Action,3,"+2 Cards+1 ActionAt the start of Clean-up this turn, if you have a Potion in play, you may put this onto your deck.",+1,+2,,,,,,,
+Apothecary,Alchemy,Action,2,+1 Card+1 ActionReveal the top 4 cards of your deck. Put the Coppers and Potions into your hand. Put the rest back in any order.,+1,+ 1-5,,,,,,,
+Apprentice,Alchemy,Action,5,+1 ActionTrash a card from your hand. +1 Card per  it costs. +2 Cards if it has  in its cost.,+1,+X,,,1,,,,
+Familiar,Alchemy,Action - Attack,3,+1 Card+1 ActionEach other player gains a Curse.,+1,+1,,,,,1,,
+Golem,Alchemy,Action,4,"Reveal cards from your deck until you reveal 2 Action cards 
+other than Golems. Discard the other cards, then play the Action cards 
+in either order.","P1, P1",,,,,,,,
+Herbalist,Alchemy,Action,2,"+1 Buy+Once this turn, when you discard a Treasure from play, you may put it onto your deck.",,,+1,+,,,,,
+Philosopher's Stone,Alchemy,Treasure,3,Count your deck and discard pile.+ per 5 cards total between them (round down).,,,,+,,,,,
+Possession,Alchemy,Action,6,"The player to your left takes an extra turn after this one (but not a
+ 2nd extra turn in a row), in which you can see all cards they can and 
+make all decisions for them. Any cards or 
+ they would gain on that turn, you gain instead; any cards of theirs 
+that are trashed are set aside and put in their discard pile at end of 
+turn.",,,,,,,,X,
+Scrying Pool,Alchemy,Action - Attack,2,"+1 ActionEach player (including you) reveals the top
+ card of their deck and either discards it or puts it back, your choice.
+ Then reveal cards from your deck until revealing one that isn’t an 
+Action. Put all of those revealed cards into your hand.",+1,+X,,,,,,,
+Transmute,Alchemy,Action,10px-Potion.png,"Trash a card from your hand. If it is an...Action card, gain a DuchyTreasure card, gain a TransmuteVictory card, gain a Gold",,,,,1,,,1,!(3 )
+University,Alchemy,Action,2,+2 ActionsYou may gain an Action card costing up to .,+2,,,,,,,1,
+Vineyard,Alchemy,Victory,10px-Potion.png,Worth 1  per 3 Action cards you have (round down).,,,,,,,,,X
+Potion,Alchemy,Treasure,4,20px-Potion.png,,,,+,,,,,
+Anvil,"Prosperity, 2E",Treasure,3,You may discard a Treasure to gain a card costing up to .,,-1?,,+,,,,!1,
+Bank,Prosperity,Treasure,7,+ per Treasure card you have in play (counting this).,,,,+,,,,,
+Bishop,Prosperity,Action,4,++1 Trash a card from your hand. +1  per  it costs (round down). Each other player may trash a card from their hand.,,,,+,1,,,,"+1 , +X"
+Charlatan,"Prosperity, 2E",Action - Attack,5,"+Each other player gains a Curse.In games using this, Curse is also a Treasure worth .",,,,+,,,1,,
+City,Prosperity,Action,5,"+1 Card+2 ActionsIf there are one or more empty Supply piles, +1 Card. If there are two or more, +1 Buy and +.",+2,"+1, !+1",!+1,!+,,,,,
+Clerk,"Prosperity, 2E",Action - Reaction - Attack,4,"+Each other player with 5 or more cards in hand puts one onto their deck.At the start of your turn, you may play this from your hand.",Pself,,,+,,,,,
+Collection,"Prosperity, 2E",Treasure,5,"+1 BuyThis turn, when you gain an Action card, +1 .",,,+1,+,,,,,+X
+Contraband,"Prosperity, 1E",Treasure,5,+1 BuyThe player to your left names a card. You can’t buy that card this turn.,,,+1,+,,,,,
+Counting House,"Prosperity, 1E",Action,5,"Look through your discard pile, reveal any number of Coppers from it, and put them into your hand.",,+X,,,,,,,
+Crystal Ball,"Prosperity, 2E",Treasure,5,"Look at the top card of your deck. You may trash it, discard it, or, if it's an Action or Treasure, play it.",!P1?,,,"+, !P1?",1?,,,,
+Expand,Prosperity,Action,7,Trash a card from your hand. Gain a card costing up to  more than it.,,,,,1,,,1,
+Forge,Prosperity,Action,7,Trash any number of cards from your hand. Gain a card with cost exactly equal to the total cost in  of the trashed cards.,,,,,X,,,1,
+Goons,"Prosperity, 1E",Action - Attack,6,"+1 Buy+Each other player discards down to 3 cards in hand.While you have this in play, when you buy a card, +1 .",,,+1,+,,,,,+X
+Grand Market,Prosperity,Action,6,+1 Card+1 Action+1 Buy+.You can’t buy this if you have any Coppers in play.,+1,+1,+1,+,,,,,
+Hoard,Prosperity,Treasure,6,"This turn, when you gain a Victory card, if you bought it, gain a Gold.",,,,+,,,,X,
+Investment,"Prosperity, 2E",Treasure,4,Trash a card from your hand.Choose one: +; or trash this to reveal your hand for +1  per differently named Treasure there.,,,,+?,1,,,,+X ?
+King's Court,Prosperity,Action,7,You may play an Action card from your hand three times.,P3?,,,,,,,,
+Loan,"Prosperity, 1E",Treasure,3,Reveal cards from your deck until you reveal a Treasure. Discard it or trash it. Discard the other cards.,,,,+,1?,,,,
+Magnate,"Prosperity, 2E",Action,5,Reveal your hand.+1 Card per Treasure in it.,,+X,,,,,,,
+Mint,Prosperity,Action,5,"You may reveal a Treasure card from your hand. Gain a copy of it.When you gain this, trash all non-Duration Treasures you have in play.",,,,,*X,,,1?,
+Monument,Prosperity,Action,4,++1,,,,+,,,,,+1
+Mountebank,"Prosperity, 1E",Action - Attack,5,"+Each other player may discard a Curse. If they don’t, they gain a Curse and a Copper.",,,,+,,,2?,,
+Peddler,Prosperity,Action,8,"+1 Card+1 Action+During a player's Buy phase, this costs  less per Action card they have in play.",+1,+1,,"+, RXself",,,,,
+Quarry,Prosperity,Treasure,4,"This turn, Actions cost  less.",,,,"+, !R2",,,,,
+Rabble,Prosperity,Action - Attack,5,"+3 CardsEach other player reveals the top 3 cards of
+ their deck, discards the revealed Actions and Treasures, and puts the 
+rest back in any order they choose.",,+3,,,,,,,
+Royal Seal,"Prosperity, 1E",Treasure,5,"While you have this in play, when you gain a card, you may put that card onto your deck.",,,,+,,,,,
+Talisman,"Prosperity, 1E",Treasure,4,"While you have this in play, when you buy a non-Victory card costing  or less, gain a copy of it.",,,,+,,,,!1,
+Tiara,"Prosperity, 2E",Treasure,4,"+1 BuyThis turn, when you gain a card, you may put it onto your deck.You may play a Treasure from your hand twice.",,,+1,P2?,,,,,
+Trade Route,"Prosperity, 1E",Action,3,+1 BuyTrash a card from your hand. + per Coin token on the Trade Route mat.Setup: Add a Coin token to each Victory Supply pile; move that token to the Trade Route mat when a card is gained from the pile.,,,+1,+,1,,,,
+Vault,Prosperity,Action,5,"+2 CardsDiscard any number of cards for + each.Each other player may discard 2 cards, to draw a card.",,"+2, -X",,+,,,,,
+Venture,"Prosperity, 1E",Treasure,5,Reveal cards from your deck until you reveal a Treasure. Discard the other cards. Play that Treasure.,,,,"+, P1",,,,,
+War Chest,"Prosperity, 2E",Treasure,5,The player to your left names a card. Gain a card costing up to  that hasn't been named for War Chests this turn.,,,,,,,,1,
+Watchtower,Prosperity,Action - Reaction,3,"Draw until you have 6 cards in hand.When you gain a card, you may reveal this from your hand, to either trash that card or put it onto your deck.",,=6,,,**1?,,,,
+Worker's Village,Prosperity,Action,4,+1 Card+2 Actions+1 Buy,+2,+1,+1,,,,,,
+Platinum,Prosperity,Treasure,9,5,,,,+,,,,,
+Colony,Prosperity,Victory,11,10,,,,,,,,,10
+Advisor,Cornucopia & Guilds,Action,4,"+1 ActionReveal the top 3 cards of your deck. The 
+player to your left chooses one of them. Discard that card and put the 
+rest into your hand.",+1,"+3, !-1",,,,,,,
+Baker,Cornucopia & Guilds,Action,5,+1 Card+1 Action+1 CoffersSetup: Each player gets +1 Coffers.,+1,+1,,+,,,,,
+Butcher,Cornucopia & Guilds,Action,5,"+2 CoffersYou may trash a card from your hand, to gain a card, costing up to  more than it per Coffers you spend.",,,,"+, -",1?,,,!1,
+Candlestick Maker,Cornucopia & Guilds,Action,2,+1 Action+1 Buy+1 Coffers,+1,,+1,+,,,,,
+Carnival,"Cornucopia & Guilds, 2E",Action,5,Reveal the top 4 cards of your deck. Put one of each differently named card into your hand and discard the rest.,,+ 1-4,,,,,,,
+Doctor,"Cornucopia & Guilds, 1E",Action,3,"Name a card. Reveal the top 3 cards of your deck. Trash the matches. Put the rest back in any order.Overpay: Per  overpaid, look at the top card of your deck; trash it, discard it, or put it back.",,,,,!0-3*X,,,,
+Fairgrounds,Cornucopia & Guilds,Victory,6,Worth 2  per 5 differently named cards you have (round down).,,,,,,,,,X
+Farmhands,"Cornucopia & Guilds, 2E",Action,4,"+1 Card+2 ActionWhen you gain this, you may set aside an Action or Treasure from your hand, and play it at the start of your next turn.","+2, N P1?",+1,,,,,,,
+Farming Village,"Cornucopia & Guilds, 1E",Action,4,+2 ActionsReveal cards from your deck until you reveal a Treasure or Action card. Put that card into your hand and discard the rest.,+2,+1,,,,,,,
+Farrier,"Cornucopia & Guilds, 2E",Action,2,+1 Card+1 Action+1 BuyOverpay: +1 Card at the end of this turn per  overpaid.,+1,"+1, *+X",+1,,,,,,
+Ferryman,"Cornucopia & Guilds, 2E",Action,5,+2 Cards+1 ActionDiscard a card.Setup: Choose an unused Kingdom card pile costing  or .Gain one when you gain a Ferryman.,+1,"+2, -1",,,,,,*1,
+Footpad,"Cornucopia & Guilds, 2E",Action - Attack,5,"+2 CoffersEach other player discards down to 3 cards in hand.In games using this, when you gain a card in an Action phase, +1 Card.",,N... **+X,,+,,,,,
+Fortune Teller,"Cornucopia & Guilds, 1E",Action - Attack,3,"+Each
+ other player reveals cards from the top of their deck until they reveal
+ a Victory card or a Curse. They put it on top and discard the rest.",,,,+,,,,,
+Hamlet,Cornucopia & Guilds,Action,2,+1 Card+1 ActionYou may discard a card for +1 Action. You may discard a card for +1 Buy.,"+1, !+1","+1, -2?",!+1,,,,,,
+Harvest,"Cornucopia & Guilds, 1E",Action,5,"Reveal the top 4 cards of your deck, then discard them. + per differently named card revealed.",,,,+,,,,,
+Herald,Cornucopia & Guilds,Action,4,"+1 Card+1 ActionReveal the top card of your deck. If it's an Action, play it.Overpay: Per  overpaid, put any card from your discard pile onto your deck.","+1, !P1",+1,,,,,,,
+Horn of Plenty,Cornucopia & Guilds,Treasure,5,"Gain a card costing up to  per differently named card you have in play (counting this). If it's a Victory card, trash this.",,,,,Self?,,,1,
+Horse Traders,"Cornucopia & Guilds, 1E",Action - Reaction,4,"+1 Buy+Discard 2 cards.When
+ another player plays an Attack card, you may first set this aside from 
+your hand. If you do, then at the start of your next turn, +1 Card and return this to your hand.",,-2*N +1,+1,+,,,,,
+Hunting Party,Cornucopia & Guilds,Action,5,"+1 Card+1 ActionReveal your hand. 
+Reveal cards from your deck until you reveal a card that isn’t a copy of
+ one in your hand. Put it into your hand and discard the rest.",+1,+2,,,,,,,
+Infirmary,"Cornucopia & Guilds, 2E",Action,3,+1 CardYou may trash a card from your hand.Overpay: Play this once per  overpaid.,*PselfX,+1,,,1?,,,,
+Jester,Cornucopia & Guilds,Action - Attack,5,"+Each
+ other player discards the top card of their deck. If it’s a Victory 
+card they gain a Curse; otherwise they gain a copy of the discarded card
+ or you do, your choice.",,,,+,,,!1?,!1?,
+Journeyman,Cornucopia & Guilds,Action,5,"Name a card. Reveal cards from your deck until you reveal 3 cards 
+without that name. Put those cards into your hand and discard the rest.",,+3,,,,,,,
+Joust,"Cornucopia & Guilds, 2E",Action,5,+1 Card+1 Action+You may set aside a Province from your hand to gain any Reward to your hand. Discard the Province in Clean-up.,+1,"+1, !+1",,+,,,,!1,
+Masterpiece,"Cornucopia & Guilds, 1E",Treasure,3,Overpay: Gain a Silver per  overpaid.,,,,+,,,,*X,
+Menagerie,Cornucopia & Guilds,Action,3,"+1 ActionReveal your hand. If the revealed cards all have different names, +3 Cards. Otherwise, +1 Card.",+1,"+1, !+2",,,,,,,
+Merchant Guild,Cornucopia & Guilds,Action,5,"+1 Buy+At the end of your Buy phase this turn, +1 Coffers per card you gained in it.",,,+1,+*+,,,,,
+Plaza,Cornucopia & Guilds,Action,4,+1 Card+2 ActionsYou may discard a Treasure for +1 Coffers.,+2,"+1, -1?",,!+,,,,,
+Remake,Cornucopia & Guilds,Action,4,"Do this twice: Trash a card from your hand, then gain a card costing exactly  more than it.",,,,,2,,,2,
+Shop,"Cornucopia & Guilds, 2E",Action,3,+1 Card+You may play an Action card from your hand that you don't have a copy of in play.,P1?,+1,,+,,,,,
+Soothsayer,Cornucopia & Guilds,Action - Attack,5,"Gain a Gold. Each other player gains a Curse, and if they did, draws a card.",,,,,,,1,1,
+Stonemason,Cornucopia & Guilds,Action,2,Trash a card from your hand. Gain 2 cards each costing less than it.Overpay: Gain 2 Action cards each costing the amount overpaid.,,,,,1,,,2*2?,
+Taxman,"Cornucopia & Guilds, 1E",Action - Attack,4,"You may trash a Treasure from your hand. Each other player with 5 or
+ more cards in hand discards a copy of it (or reveals they can't). Gain a
+ Treasure onto your deck costing up to  more than it.",,,,,1?,,,!1,
+Tournament,"Cornucopia & Guilds, 1E",Action,4,"+1 ActionEach player may reveal a Province from 
+their hand. If you do, discard it and gain any Prize (from the Prize 
+pile) or a Duchy, onto your deck. If no-one else does, +1 Card and +.",+1,!+1,,!+,,,,!1,!(3 ?)
+Young Witch,Cornucopia & Guilds,Action - Attack,4,+2 CardsDiscard 2 cards. Each other player gains a Curse unless they reveal a Bane from their hand.Setup: Add an extra Kingdom card pile costing  or  to the Supply. Its cards are Banes.,,"+2, -2",,,,,!1,,
+Bag of Gold,"Cornucopia & Guilds, 1E",Action - Prize,0,+1 ActionGain a Gold onto your deck.(This is not in the Supply.),+1,,,,,,,1,
+Coronet,"Cornucopia & Guilds, 2E",Action - Treasure - Reward,0,You may play a non-Reward Action from your hand twice.You may play a non-Reward Treasure from your hand twice.(This is not in the Supply.),P2?,,,P2?,,,,,
+Courser,"Cornucopia & Guilds, 2E",Action - Reward,0,Choose two different options: +2 Cards; +2 Actions; +; gain 4 Silvers.(This is not in the Supply.),+2?,+2?,,+?,,,,4?,
+Demesne,"Cornucopia & Guilds, 2E",Action - Victory - Reward,0,+2 Actions+2 BuysGain a Gold.Worth 1  per Gold you have.(This is not in the Supply.),+2,,+2,,,,,1,X
+Diadem,"Cornucopia & Guilds, 1E",Treasure - Prize,0,"+ per unused Action you have (Action, not Action card).(This is not in the Supply.)",,,,"+, +",,,,,
+Followers,"Cornucopia & Guilds, 1E",Action - Attack - Prize,0,+2 CardsGain an Estate. Each other player gains a Curse and discards down to 3 cards in hand.(This is not in the Supply.),,+2,,,,,1,1,(1 )
+Housecarl,"Cornucopia & Guilds, 2E",Action - Reward,0,+1 Card per differently named Action card you have in play.(This is not in the Supply.),,+X,,,,,,,
+Huge Turnip,"Cornucopia & Guilds, 2E",Treasure - Reward,0,+2 Coffers+ per Coffers you have.(This is not in the Supply.),,,,"+, +",,,,,
+Princess,"Cornucopia & Guilds, 1E",Action - Prize,0,"+1 BuyThis turn, cards cost  less.(This is not in the Supply.)",,,+1,R2,,,,,
+Renown,"Cornucopia & Guilds, 2E",Action - Reward,0,"+1 BuyThis turn, cards cost  less.(This is not in the Supply.)",,,+1,R2,,,,,
+Trusty Steed,"Cornucopia & Guilds, 1E",Action - Prize,0,Choose two: +2 Cards; or +2 Actions; or +; or gain 4 Silvers and put your deck into your discard pile. The choices must be different.(This is not in the Supply.),+2?,+2?,,+?,,,,4?,
+Berserker,"Hinterlands, 2E",Action - Attack,5,"Gain a card costing less than this. Each other player discards down to 3 cards in hand.When you gain this, if you have an Action in play, play this.",*Pself,,,,,,,1,
+Border Village,Hinterlands,Action,6,"+1 Card+2 ActionsWhen you gain this, gain a cheaper card.",+2,+1,,,,,,*1,
+Cache,"Hinterlands, 1E",Treasure,5,"When you gain this, gain 2 Coppers.",,,,+,,,2Self,2,
+Cartographer,Hinterlands,Action,5,"+1 Card+1 ActionLook at the top 4 cards of your deck. Discard any number of them, then put the rest back in any order.",+1,+1,,,,,,,
+Cauldron,"Hinterlands, 2E",Treasure - Attack,5,"+1 BuyThe third time you gain an Action this turn, each other player gains a Curse.",,,+1,+,,,!1,,
+Crossroads,Hinterlands,Action,2,"Reveal your hand. +1 Card per Victory card revealed. If this is the first time you played a Crossroads this turn, +3 Actions.",!+3,+X,,,,,,,
+Develop,Hinterlands,Action,3,"Trash a card from your hand. Gain two cards onto your deck, with one costing exactly  more than it, and one costing exactly  less than it, in either order.",,,,,1,,,2,
+Duchess,"Hinterlands, 1E",Action,2,"+. Each player (including you) looks at the top card of their deck and may discard it.In games using this, when you gain a Duchy, you may gain a Duchess.",,,,+,,,,**Self,
+Embassy,"Hinterlands, 1E",Action,5,"+5 CardsDiscard 3 cards.When you gain this, each other player gains a Silver.",,"+5, -3",,,,,,,
+Farmland,Hinterlands,Victory,6,"2 When you gain this, trash a card from your hand and gain a non-Farmland card costing exactly  more than it.",,,,,*1,,,*1,2
+Fool's Gold,Hinterlands,Treasure - Reaction,2,"If this is the first time you played a Fool's Gold this turn, +, otherwise +.When another player gains a Province, you may trash this from your hand, to gain a Gold onto your deck.",,,,"+, !+",**Self,,,**1,
+Guard Dog,"Hinterlands, 2E",Action - Reaction,3,"+2 CardsIf you have 5 or fewer cards in hand, +2 Cards.When another player plays an Attack, you may first play this from your hand.",**Pself,"+2, !+2",,,,,,,
+Haggler,Hinterlands,Action,5,"+This turn, when you gain a card, if you bought it, gain a cheaper non-Victory card.",,,,+,,,,X,
+Highway,Hinterlands,Action,5,"+1 Card+1 ActionThis turn, cards cost  less.",+1,+1,,R1,,,,,
+Ill-Gotten Gains,"Hinterlands, 1E",Treasure,5,"You may gain a Copper to your hand.When you gain this, each other player gains a Curse.",,(+1)?,,+,,,Self?*1,1?,
+Inn,Hinterlands,Action,5,"+2 Cards+2 ActionsDiscard 2 cards.When you gain this, reveal any number of Action cards from your discard pile and shuffle them into your deck.",+2,"+2, -2",,,,,,,
+Jack of All Trades,Hinterlands,Action,4,Gain a Silver.Look at the top card of your deck; you may discard it.Draw until you have 5 cards in hand.You may trash a non-Treasure card from your hand.,,=5,,,1?,,,1,
+Mandarin,"Hinterlands, 1E",Action,5,"+Put a card from your hand onto your deck.When you gain this, put all Treasures you have in play onto your deck in any order.",,-1,,+,,,,,
+Margrave,Hinterlands,Action - Attack,5,"+3 Cards+1 BuyEach other player draws a card, then discards down to 3 cards in hand.",,+3,+1,,,,,,
+Noble Brigand,"Hinterlands, 1E",Action - Attack,4,"+Each
+ other player reveals the top 2 cards of their deck, trashes a revealed 
+Silver or Gold you choose, discards the rest, and gains a Copper if they
+ didn't reveal a Treasure. You gain the trashed cards.When you buy this, do its attack.",,,,+,,,1?*1?,X*X,
+Nomad Camp,"Hinterlands, 1E",Action,4,+1 Buy+This is gained onto your deck (instead of to your discard pile).,,,+1,+,,,,,
+Nomads,"Hinterlands, 2E",Action,4,"+1 Buy+When you gain or trash this, +.",,,+1,+*+,,,,,
+Oasis,Hinterlands,Action,3,+1 Card+1 Action+Discard a card.,+1,"+1, -1",,+,,,,,
+Oracle,"Hinterlands, 1E",Action - Attack,3,"Each player (including you) reveals the top 2 cards of their deck, 
+and discards them or puts them back, your choice (they choose the 
+order). Then, +2 Cards.",,+2,,,,,,,
+Scheme,Hinterlands,Action,3,"+1 Card+1 ActionThis turn, you may put one of your Action cards onto your deck when you discard it from play.",+1,+1,,,,,,,
+Silk Road,"Hinterlands, 1E",Victory,4,Worth 1  for every 4 Victory cards you have (round down).,,,,,,,,,X
+Souk,"Hinterlands, 2E",Action,5,"+1 Buy+– per card in your hand (you can't go below ).When you gain this, trash up to 2 cards from your hand.",,,+1,"+, -",*0-2?,,,,
+Spice Merchant,Hinterlands,Action,4,You may trash a Treasure from your hand to choose one: +2 Cards and +1 Action; or +1 Buy and +.,!+1?,!+2?,!+1?,!+?,1?,,,,
+Stables,Hinterlands,Action,5,"You may discard a Treasure, for +3 Cards and +1 Action.",!+1,"-1?, !+3",,,,,,,
+Trader,Hinterlands,Action - Reaction,4,"Trash a card from your hand. Gain a Silver per  it costs.When you gain a card, you may reveal this from your hand, to exchange the card for a Silver.",,,,,1,,,X,
+Trail,"Hinterlands, 2E",Action - Reaction,4,"+1 Card+1 ActionWhen you gain, trash, or discard this, other than in Clean-up, you may play it.",+1*Pself,+1,,,,,,,
+Tunnel,Hinterlands,Victory - Reaction,3,"2 When you discard this other than during Clean-up, you may reveal it to gain a Gold.",,,,,,,,!1,2
+Weaver,"Hinterlands, 2E",Action - Reaction,4,"Gain two Silvers or a card costing up to .When you discard this other than in Clean-up, you may play it.",*Pself,,,,,,,1-2?,
+Wheelwright,"Hinterlands, 2E",Action,5,+1 Card+1 ActionYou may discard a card to gain an Action card costing as much as it or less.,+1,"+1, -1?",,,,,,!1,
+Witch's Hut,"Hinterlands, 2E",Action - Attack,5,"+4 CardsDiscard 2 cards, revealed. If they're both Actions, each other player gains a Curse.",,"+4, -2",,,,,!1,,
+Altar,Dark Ages,Action,6,Trash a card from your hand. Gain a card costing up to .,,,,,1,,,1,
+Armory,Dark Ages,Action,4,Gain a card onto your deck costing up to .,,,,,,,,1,
+Band of Misfits,Dark Ages,Action - Command,5,"Play a non-Command Action card from the Supply that costs less than this, leaving it there.",(P1),,,,,,,,
+Bandit Camp,Dark Ages,Action,5,+1 Card+2 ActionsGain a Spoils.,+2,+1,,,,,,1,
+Beggar,Dark Ages,Action - Reaction,2,"Gain 3 Coppers to your hand.When another player plays an Attack card, you may first discard this to gain 2 Silvers, putting one onto your deck.",,(+3),,(+),,,3Self,3*2,
+Catacombs,Dark Ages,Action,5,"Look at the top 3 cards of your deck. Choose one: Put them into your hand; or discard them and +3 Cards.When you trash this, gain a cheaper card.",,+3,,,,,,*1,
+Counterfeit,Dark Ages,Treasure,5,+1 BuyYou may play a non-Duration Treasure from your hand twice. Trash it.,,,+1,"+, P2?",!1,,,,
+Count,Dark Ages,Action,5,Choose one: Discard 2 cards; or put a card from your hand onto your deck; or gain a Copper.Choose one: +; or trash your hand; or gain a Duchy.,,"-1?, -2?",,+?,X?,,Self?,"1?, 1?",(3 ?)
+Cultist,Dark Ages,Action - Attack - Looter,5,"+2 CardsEach other player gains a Ruins. You may play a Cultist from your hand.When you trash this, +3 Cards.",P1?,+2*+3,,,,,1,,
+Dame Anna,Dark Ages,Action - Attack - Knight,5,"You may trash up to 2 cards from your hand. Each other player 
+reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,,,,"0-2?, !Self",,,,
+Dame Josephine,Dark Ages,Action - Attack - Victory - Knight,5,"Each other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.2",,,,,!Self,,,,2
+Dame Molly,Dark Ages,Action - Attack - Knight,5,"+2 ActionsEach other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",+2,,,,!Self,,,,
+Dame Natalie,Dark Ages,Action - Attack - Knight,5,"You may gain a card costing up to . Each other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,,,,!Self,,,1?,
+Dame Sylvia,Dark Ages,Action - Attack - Knight,5,"+Each other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,,,+,!Self,,,,
+Death Cart,Dark Ages,Action - Looter,4,"You may trash this or an Action card from your hand, for +.When you gain this, gain 2 Ruins.",,,,+,1 or Self?,,2Self,2,
+Feodum,Dark Ages,Victory,4,"Worth 1  per 3 Silvers you have (round down).When you trash this, gain 3 Silvers.",,,,,,,,*3,X
+Forager,Dark Ages,Action,3,"+1 Action+1 BuyTrash a card from your hand, then + per differently named Treasure in the trash.",+1,,+1,+,1,,,,
+Fortress,Dark Ages,Action,4,"+1 Card+2 ActionsWhen you trash this, put it into your hand.",+2,+1*(+Self),,,,,,*(1),
+Graverobber,Dark Ages,Action,5,"Choose one: Gain a card from the trash costing from  to , onto your deck; or trash an Action card from your hand and gain a card costing up to  more than it.",,,,,1?,,,1?,
+Hermit,Dark Ages,Action,3,"Look through your discard pile. You may trash a non-Treasure from it or from your hand.Gain a card costing up to .At the end of your Buy phase this turn, if you didn't gain any cards in it, exchange this for a Madman.",,,,,"1?, !*Self",,,"1, !1",
+Hunting Grounds,Dark Ages,Action,6,"+4 CardsWhen you trash this, gain a Duchy or 3 Estates.",,+4,,,,,,*1 or 3,*(3 )
+Ironmonger,Dark Ages,Action,4,"+1 Card+1 ActionReveal the top card of your deck; you may discard it. Either way, if it is an...Action card, +1 ActionTreasure card, +Victory card, +1 Card","+1, !+1","+1, !+1",,!+,,,,,
+Junk Dealer,Dark Ages,Action,5,+1 Card+1 Action+Trash a card from your hand.,+1,+1,,+,1,,,,
+Marauder,Dark Ages,Action - Attack - Looter,4,Gain a Spoils. Each other player gains a Ruins.,,,,,,,1,1,
+Market Square,Dark Ages,Action - Reaction,3,"+1 Card+1 Action+1 BuyWhen one of your cards is trashed, you may discard this from your hand to gain a Gold.",+1,+1,+1,,,,,*1,
+Mystic,Dark Ages,Action,5,"+1 Action+Name a card, then reveal the top card of your deck. If you named it, put it into your hand.",+1,!+1,,+,,,,,
+Pillage,Dark Ages,Action - Attack,5,"Trash this. If you did, gain 2 Spoils, and each other player with 5 
+or more cards in hand reveals their hand and discards a card that you 
+choose.",,,,,Self,,,2,
+Poor House,Dark Ages,Action,1,+Reveal your hand. – per Treasure card in your hand. (You can't go below .),,,,"+, -",,,,,
+Procession,Dark Ages,Action,4,You may play a non-Duration Action card from your hand twice. Trash it. Gain an Action card costing exactly  more than it.,P2?,,,,!1,,,!1,
+Rats,Dark Ages,Action,4,"+1 Card+1 ActionGain a Rats. Trash a card from your hand other than a Rats (or reveal a hand of all Rats).When you trash this, +1 Card.",+1,+1*1,,,1,,,1,
+Rebuild,Dark Ages,Action,5,"+1 Action Name a card. Reveal cards from your deck 
+until you reveal a Victory card you did not name. Discard the rest, 
+trash the Victory card, and gain a Victory card costing up to  more than it.",+1,,,,1,,,1,
+Rogue,Dark Ages,Action - Attack,5,"+If there are any cards in the trash costing from  to , gain one of them. Otherwise, each other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest.",,,,+,,,,!1,
+Sage,Dark Ages,Action,3,+1 ActionReveal cards from the top of your deck until you reveal one costing  or more. Put that card into your hand and discard the rest.,+1,+1,,,,,,,
+Scavenger,Dark Ages,Action,4,+You may put your deck into your discard pile. Put a card from your discard pile onto your deck.,,,,+,,,,,
+Sir Bailey,Dark Ages,Action - Attack - Knight,5,"+1 Card+1 ActionEach other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",+1,+1,,,!Self,,,,
+Sir Destry,Dark Ages,Action - Attack - Knight,5,"+2 CardsEach other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,+2,,,!Self,,,,
+Sir Martin,Dark Ages,Action - Attack - Knight,4,"+2 BuysEach other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,,+2,,!Self,,,,
+Sir Michael,Dark Ages,Action - Attack - Knight,5,"Each other player discards down to 3 cards in hand. Each other 
+player reveals the top 2 cards of their deck, trashes one of them 
+costing from  to , and discards the rest. If a Knight is trashed by this, trash this.",,,,,!Self,,,,
+Sir Vander,Dark Ages,Action - Attack - Knight,5,"Each other player reveals the top 2 cards of their deck, trashes one of them costing from  to , and discards the rest. If a Knight is trashed by this, trash this.When you trash this, gain a Gold.",,,,,!Self,,,*1,
+Squire,Dark Ages,Action,2,"+Choose one: +2 Actions; or +2 Buys; or gain a Silver.When you trash this, gain an Attack card.",+2?,,+2?,+,,,,1?*1,
+Storeroom,Dark Ages,Action,3,"+1 BuyDiscard any number of cards, then draw that many. Then discard any number of cards for + each.",,"-Y, +Y, -X",+1,+,,,,,
+Urchin,Dark Ages,Action - Attack,3,"+1 Card+1 ActionEach other player discards down to 4 cards in hand.When you play another Attack card with this in play, you may first trash this, to gain a Mercenary.",+1,+1,,,!Self?,,,!1,
+Vagrant,Dark Ages,Action,2,"+1 Card+1 ActionReveal the top card of your deck. If it’s a Curse, Ruins, Shelter, or Victory card, put it into your hand.",+1,"+1, !+1",,,,,,,
+Wandering Minstrel,Dark Ages,Action,4,+1 Card+2 ActionsReveal the top 3 cards of your deck. Put the Action cards back in any order and discard the rest.,+2,+1,,,,,,,
+Abandoned Mine,Dark Ages,Action - Ruins,0,+,,,,+,,,,,
+Ruined Library,Dark Ages,Action - Ruins,0,+1 Card,,+1,,,,,,,
+Ruined Market,Dark Ages,Action - Ruins,0,+1 Buy,,,+1,,,,,,
+Ruined Village,Dark Ages,Action - Ruins,0,+1 Action,+1,,,,,,,,
+Survivors,Dark Ages,Action - Ruins,0,Look at the top 2 cards of your deck. Discard them or put them back in any order.,,,,,,,,,
+Hovel,Dark Ages,Reaction - Shelter,1,"When you gain a Victory card, you may trash this from your hand.",,,,,*Self,,,,
+Madman,Dark Ages,Action,0,"+2 ActionsReturn this to the Madman pile. If you do, +1 Card per card in your hand.(This is not in the Supply.)",+2,+X,,,Self,,,,
+Mercenary,Dark Ages,Action - Attack,0,"You may trash 2 cards from your hand. If you did, +2 Cards, +, and each other player discards down to 3 cards in hand.(This is not in the Supply.)",,!+2,,!+,2?,,,,
+Necropolis,Dark Ages,Action - Shelter,1,+2 Actions,+2,,,,,,,,
+Overgrown Estate,Dark Ages,Victory - Shelter,1,"0 When you trash this, +1 Card.",,*+1,,,,,,,
+Spoils,Dark Ages,Treasure,0,"When you play this, return it to the Spoils pile.(This is not in the Supply.)",,,,+,Self,,,,
+Amulet,Adventures,Action - Duration,3,"Now and at the start of your next turn, choose one: +; or trash a card from your hand; or gain a Silver.",,,,"+?, N +?","1?, N 1?",,,"1?, N 1?",
+Artificer,Adventures,Action,5,+1 Card+1 Action+Discard any number of cards. You may gain a card onto your deck costing exactly  per card discarded.,+1,"+1, -X",,+,,,,1?,
+Bridge Troll,Adventures,Action - Attack - Duration,5,"Each other player takes their – token. On this turn and your next turn, cards cost  less.Now and at the start of your next turn: +1 Buy.",,,"+1, N +1","R1, N R1",,,,,
+Caravan Guard,Adventures,Action - Duration - Reaction,3,"+1 Card+1 ActionAt the start of your next turn, +.When another player plays an Attack card, you may first play this from your hand.",+1**Pself,+1,,N +,,,,,
+Coin of the Realm,Adventures,Treasure - Reserve,2,"Put this on your Tavern mat.After you play an Action card, you may call this, for +2 Actions.",C+2,,,+,,,,,
+Distant Lands,Adventures,Action - Reserve - Victory,5,Put this on your Tavern mat.Worth 4  if on your Tavern mat at the end of the game (otherwise worth 0 ).,,,,,,,,,!4
+Dungeon,Adventures,Action - Duration,3,"+1 ActionNow and at the start of your next turn: +2 Cards, then discard 2 cards.",+1,"+2, -2, N +2, N -2",,,,,,,
+Duplicate,Adventures,Action - Reserve,4,"Put this on your Tavern mat.When you gain a card costing up to , you may call this, to gain a copy of that card.",,,,,,,,C1,
+Gear,Adventures,Action - Duration,3,"+2 CardsSet aside up to 2 cards from your hand face down (under this). At the start of your next turn, put them into your hand.",,"+2, - 0-2?(X), N +X",,,,,,,
+Giant,Adventures,Action - Attack,5,"Turn your Journey token over (it starts face up). Then if it's face down, +. If it's face up, +, and each other player reveals the top card of thier deck, trashes it if it costs from  to , and otherwise discards it and gains a Curse.",,,,"+, !+",,,!1,,
+Guide,Adventures,Action - Reserve,3,"+1 Card+1 ActionPut this on your Tavern mat.At the start of your turn, you may call this, to discard your hand and draw 5 cards.",+1,"+1, C-X?, !+5",,,,,,,
+Haunted Woods,Adventures,Action - Attack - Duration,5,"At the start of your next turn: +3 Cards.Until then, when any other player gains a card they bought, they put their hand onto their deck in any order.",,N +3,,,,,,,
+Hireling,Adventures,Action - Duration,6,At the start of each of your turns for the rest of the game: +1 Card,,N... +1,,,,,,,
+Lost City,Adventures,Action,5,"+2 Cards+2 ActionsWhen you gain this, each other player draws a card.",+2,+2,,,,,,,
+Magpie,Adventures,Action,4,"+1 Card+1 ActionReveal the top card of your deck. If it's a Treasure, put it into your hand. If it's an Action or Victory card, gain a Magpie.",+1,"+1, !+1",,,,,,!1,
+Messenger,Adventures,Action,4,"+1 Buy+You may put your deck into your discard pile.When this is the first card you gain in your Buy phase, gain a card costing up to , and each other player gains a copy of it.",,,+1,+,,,,!1,
+Miser,Adventures,Action,4,Choose one: Put a Copper from your hand onto your Tavern mat; or + per Copper on your Tavern mat.,,,,+?,1?,,,,
+Page,Adventures,Action - Traveller,2,"+1 Card+1 ActionWhen you discard this from play, you may exchange it for a Treasure Hunter.",+1,+1,,,Self?,,,,
+Peasant,Adventures,Action - Traveller,2,"+1 Buy+When you discard this from play, you may exchange it for a Soldier.",,,+1,+,Self?,,,,
+Port,Adventures,Action,4,"+1 Card+2 ActionsWhen you gain this, gain another Port (that doesn't come with another).",+2,+1,,,,,,*1,
+Ranger,Adventures,Action,4,"+1 BuyTurn your Journey token over (it starts face up). Then if it's face up, +5 Cards.",,!+5,+1,,,,,,
+Ratcatcher,Adventures,Action - Reserve,2,"+1 Card+1 ActionPut this on your Tavern mat.At the start of your turn, you may call this, to trash a card from your hand.",+1,+1,,,C1,,,,
+Raze,Adventures,Action,2,+1 ActionTrash this or a card from your hand. Look at one card from the top of your deck per  the trashed card costs. Put one of them into your hand and discard the rest.,+1,!+1,,,1 or Self?,,,,
+Relic,Adventures,Treasure - Attack,5,"When you play this, each other player puts their –1 Card token on their deck.",,,,+,,,,,
+Royal Carriage,Adventures,Action - Reserve,5,"+1 ActionPut this on your Tavern mat.After you play an Action card, if it's still in play, you may call this, to replay that Action.",+1C P1,,,,,,,,
+Storyteller,Adventures,Action,5,"+1 ActionPlay up to 3 Treasures from your hand. Then, +1 Card, and pay all of your  and +1 Card per  you paid.",+1,"+1, +X",,-,,,,,
+Swamp Hag,Adventures,Action - Attack - Duration,5,"At the start of your next turn +.Until then, when any other player gains a card they bought, they gain a Curse.",,,,N +,,,!1,,
+Transmogrify,Adventures,Action - Reserve,4,"+1 ActionPut this on your Tavern mat.At the start of your turn, you may call this, to trash a card from your hand, and gain a card to your hand costing up to  more than it.",+1,C(+1),,,C1,,,C1,
+Treasure Trove,Adventures,Treasure,5,Gain a Gold and a Copper.,,,,+,,,Self,2,
+Wine Merchant,Adventures,Action - Reserve,5,"++1 BuyPut this on your Tavern mat.At the end of your Buy phase, if you have at least  unspent, you may discard this from your Tavern mat.",,,+1,"+, C-?",,,,,
+Champion,Adventures,Action - Duration,6,"+1 ActionFor the rest of the game, when another 
+player plays an Attack, it doesn't affect you, and when you play an 
+Action card, you first get +1 Action.(This is not in the Supply.)","+1, **+X",,,,,,,,
+Disciple,Adventures,Action - Traveller,5,"You may play an Action card from your hand twice. Gain a copy of it.When you discard this from play, you may exchange it for a Teacher.(This is not in the Supply.)",P2?,,,,Self?,,,!1,
+Fugitive,Adventures,Action - Traveller,4,"+2 Cards+1 ActionDiscard a card.When you discard this from play, you may exchange it for a Disciple.(This is not in the Supply.)",+1,"+2, -1",,,Self?,,,,
+Hero,Adventures,Action - Traveller,5,"+Gain a Treasure.When you discard this from play, you may exchange it for a Champion.(This is not in the Supply.)",,,,+,Self?,,,1,
+Soldier,Adventures,Action - Attack - Traveller,3,"++ per other Attack you have in play. Each other player with 4 or more cards in hand discards a card.When you discard this from play, you may exchange it for a Fugitive.(This is not in the Supply.)",,,,"+, +",Self?,,,,
+Teacher,Adventures,Action - Reserve,6,"Put this on your Tavern mat.At the start of your turn, you may call this, to move your +1 Card, +1 Action, +1 Buy, or + token to an Action Supply pile you have no tokens on. (When you play a card from that pile, you first get that bonus.)(This is not in the Supply.)",C**+1?,C**+1?,C**+1?,C**+?,,,,,
+Treasure Hunter,Adventures,Action - Traveller,3,"+1 Action+Gain a Silver per card the player to your right gained on their last turn.When you discard this from play, you may exchange it for a Warrior.(This is not in the Supply.)",+1,,,+,Self?,,,X,
+Warrior,Adventures,Action - Attack - Traveller,4,"+2 CardsFor each Traveller you have in play 
+(including this), each other player discards the top card of their deck 
+and trashes it if it costs  or .When you discard this from play, you may exchange it for a Hero.(This is not in the Supply.)",,+2,,,Self?,,,,
+Alms,Adventures,Event,0,"Once per turn: If you have no Treasures in play, gain a card costing up to .",,,,,,,,!1,
+Ball,Adventures,Event,5,Take your – token. Gain 2 cards each costing up to .,,,,-,,,,2,
+Bonfire,Adventures,Event,3,Trash up to 2 Coppers you have in play.,,,,,0-2?,,,,
+Borrow,Adventures,Event,0,"Once per turn: +1 Buy. If your –1 Card token isn't on your deck, put it there and +.",,(N -1),+1,!+,,,,,
+Expedition,Adventures,Event,3,Draw 2 extra cards for your next hand.,,(N +2),,,,,,,
+Ferry,Adventures,Event,3,Move your – token to an Action Supply pile. (Cards from that pile cost  less on your turns.),,,,**R2,,,,,
+Inheritance,Adventures,Event,7,"Once per game: Set aside a non-Command Action card from the Supply costing up to .
+ Move your Estate token to it. (During your turns, Estates are also 
+Command Actions with “Play the card with your Estate token, leaving it 
+there.”)",(P1),,,,,,,,
+Lost Arts,Adventures,Event,6,"Move your +1 Action token to an Action Supply pile. (When you play a card from that pile, you first get +1 Action.)",**+1,,,,,,,,
+Mission,Adventures,Event,4,"Take an extra turn after this one (but not a 3rd turn in a row), during which you can't buy cards.(You can still buy Events.)",,,,,,,,,
+Pathfinding,Adventures,Event,8,"Move your +1 Card token to an Action Supply pile. (When you play a card from that pile, you first get +1 Card.)",,**+1,,,,,,,
+Pilgrimage,Adventures,Event,4,"Once per turn: Turn your Journey token over (it starts face up); 
+then if it's face up, choose up to 3 differently named cards you have in
+ play and gain a copy of each.",,,,,,,,!0-3?,
+Plan,Adventures,Event,3,"Move your Trashing token to an Action Supply pile. (When you gain a card from that pile, you may trash a card from your hand.)",,,,,**1?,,,,
+Quest,Adventures,Event,0,"You may discard an Attack, two Curses, or six cards. If you do, gain a Gold.",,-X,,,,,,!1,
+Raid,Adventures,Event,5,Gain a Silver per Silver you have in play. Each other player puts their –1 Card token on their deck.,,,,,,,,X,
+Save,Adventures,Event,1,"Once per turn: +1 Buy. Set aside a card from your hand, and put it into your hand at end of turn (after drawing).",,"-1, (N +1)",+1,,,,,,
+Scouting Party,Adventures,Event,2,+1 BuyLook at the top 5 cards of your deck. Discard 3 and put the rest back in any order.,,,+1,,,,,,
+Seaway,Adventures,Event,5,"Gain an Action card costing up to .Move your +1 Buy token to its pile. (When you play a card from that pile, you first get +1 Buy.)",,,**+1,,,,,1,
+Trade,Adventures,Event,5,Trash up to 2 cards from your hand. Gain a Silver per card you trashed.,,,,,0-2?,,,!0-2,
+Training,Adventures,Event,6,"Move your + token to an Action Supply pile. (When you play a card from that pile, you first get +.)",,,,**+,,,,,
+Travelling Fair,Adventures,Event,2,"+2 BuysWhen you gain a card this turn, you may put it onto your deck.",,,+2,,,,,,
+Archive,Empires,Action - Duration,5,"+1 ActionSet aside the top 3 cards of your deck face
+ down (you may look at them). Now and at the start of your next two 
+turns, put one into your hand.",+1,"+1, N +1, NN +1",,,,,,,
+Bustling Village,Empires,Action,5,+1 Card+3 ActionsYou may reveal a Settlers from your discard pile and put it into your hand.,+3,"+1, +1?",,,,,,,
+Capital,Empires,Treasure,5,"+1 BuyWhen you discard this from play, take , and then you may pay off .",,,+1,"+, *+",,,,,
+Catapult,Empires,Action - Attack,3,"+Trash a card from your hand. If it costs  or more, each other player gains a Curse. If it's a Treasure, each other player discards down to 3 cards in hand.",,,,+,1,,!1,,
+Chariot Race,Empires,Action,3,"+1 ActionReveal the top card of your deck and put it
+ into your hand. The player to your left reveals the top card of their 
+deck. If your card costs more, + and +1 .",+1,+1,,!+,,,,,!+1
+Charm,Empires,Treasure,5,"Choose one: +1 Buy and +; or the next time you gain a card this turn, you may also gain a differently named card with the same cost.",,,+1?,+?,,,,1?,
+City Quarter,Empires,Action,-8,+2 ActionsReveal your hand. +1 Card per Action card revealed.,+2,+X,,,,,,,
+Crown,Empires,Action - Treasure,5,"If it's your Action phase, you may play an Action from your hand twice.If it's your Buy phase, you may play a Treasure from your hand twice.",!P2?,,,!P2?,,,,,
+Crumbling Castle,Empires,Victory - Castle,4,"1 When you gain or trash this, +1  and gain a Silver.",,,,,,,,*1,1 *+1
+Emporium,Empires,Action,5,"+1 Card+1 Action+When you gain this, if you have at least 5 Action cards in play, +2 .",+1,+1,,+,,,,,*+2
+Encampment,Empires,Action,2,"+2 Cards+2 ActionsYou may reveal a 
+Gold or Plunder from your hand. If you do not, set this aside, and 
+return it to its pile at the start of Clean-up.",+2,+2,,,!Self,,,,
+Enchantress,Empires,Action - Attack - Duration,3,"Until your next turn, the first time each other player plays an Action card on their turn, they get +1 Card and +1 Action instead of following its instructions.At the start of your next turn, +2 Cards.",,N +2,,,,,,,
+Engineer,Empires,Action,-4,"Gain a card costing up to . You may trash this. If you do, gain a card costing up to .",,,,,Self?,,,"1, !1",
+Farmers' Market,Empires,Action - Gathering,3,"+1 BuyIf there are 4  or more on the Farmers' Market pile, take them and trash this. Otherwise, add 1  to the pile and then + per 1  on the pile.",,,+1,!+ -,!Self,,,,!+4
+Fortune,Empires,Treasure,8,"+1 BuyDouble your  if you haven't yet this turn.When you gain this, gain a Gold per Gladiator you have in play.",,,+1,!x2,,,,*X,
+Forum,Empires,Action,5,"+3 Cards+1 ActionDiscard 2 cards.When you gain this, +1 Buy.",+1,"+3, -2",*+1,,,,,,
+Gladiator,Empires,Action,3,"+Reveal a card from your hand. The player to your left may reveal a copy from their hand. If they don't, + and trash a Gladiator from the Supply.",,,,"+, !+",!1 Supply,,,,
+Grand Castle,Empires,Victory - Castle,9,"5 When you gain this, reveal your hand. +1  per Victory card in your hand and/or in play.",,,,,,,,,5 *+X
+Groundskeeper,Empires,Action,5,"+1 Card+1 ActionThis turn, when you gain a Victory card, +1 .",+1,+1,,,,,,,+X
+Haunted Castle,Empires,Victory - Castle,6,"2 When
+ you gain this during your turn, gain a Gold, and each other player with
+ 5 or more cards in hand puts 2 of them onto their deck.",,,,,,,,*1,2
+Humble Castle,Empires,Treasure - Victory - Castle,3,Worth 1  per Castle you have.,,,,+,,,,,X
+King's Castle,Empires,Victory - Castle,10,Worth 2  per Castle you have.,,,,,,,,,X
+Legionary,Empires,Action - Attack,5,"+You may reveal a Gold from your hand. If you do, each other player discards down to 2 cards in hand, then draws a card.",,,,+,,,,,
+Opulent Castle,Empires,Action - Victory - Castle,7,"Discard any number of Victory cards, revealed. + per card discarded.3",,-X,,+xX,,,,,3
+Overlord,Empires,Action - Command,-8,"Play a non-Command Action card from the Supply costing up to , leaving it there.",(P1),,,,,,,,
+Patrician,Empires,Action,2,"+1 Card+1 ActionReveal the top card of your deck. If it costs  or more, put it into your hand.",+1,"+1, !+1",,,,,,,
+Plunder,Empires,Treasure,5,+1,,,,+,,,,,+1
+Rocks,Empires,Treasure,4,"When you gain or trash this: If it's your Buy phase, gain a Silver onto your deck, otherwise gain a Silver to your hand.",,*(+1),,+,,,,*1,
+Royal Blacksmith,Empires,Action,-8,+5 CardsReveal your hand; discard the Coppers.,,"+5, -X",,,,,,,
+Sacrifice,Empires,Action,4,"Trash a card from your hand. If it's an...Action card, +2 Cards and +2 ActionsTreasure card, +Victory card, +2",!+2,!+2,,!+,1,,,,!+2
+Settlers,Empires,Action,2,+1 Card+1 ActionYou may reveal a Copper from your discard pile and put it into your hand.,+1,"+1, +1?",,(+)?,,,,,
+Small Castle,Empires,Action - Victory - Castle,5,"Trash this or a Castle from your hand. If you do, gain a Castle.2",,,,,1 or Self?,,,1,"2 , (X )"
+Sprawling Castle,Empires,Victory - Castle,8,"4 When you gain this, gain a Duchy or 3 Estates.",,,,,,,,*1 or 3,4 *(3 )
+Temple,Empires,Action - Gathering,4,"+1 Trash from 1 to 3 differently named cards from your hand. Add 1  to the Temple pile.When you gain this, take the   from the Temple pile.",,,,,1-3,,,,+1 *+X
+Villa,Empires,Action,4,"+2 Actions+1 Buy+When you gain this, put it into your hand, +1 Action, and if it's your Buy phase return to your Action phase.",+2*+1,*(+Self),+1,+,,,,,
+Wild Hunt,Empires,Action - Gathering,5,"Choose one: +3 Cards and add 1  to the Wild Hunt pile; or gain an Estate, and if you do, take the   from the pile.",,+3?,,,,,,1?,"(1 ?), +X"
+Advance,Empires,Event,0,"You may trash an Action card from your hand. If you do, gain an Action card costing up to .",,,,,1?,,,!1,
+Annex,Empires,Event,-8,Look through your discard pile. Shuffle all but up to 5 cards from it into your deck. Gain a Duchy.,,,,,,,,1,(3 )
+Banquet,Empires,Event,3,Gain 2 Coppers and a non-Victory card costing up to .,,,,,,,2Self,3,
+Conquest,Empires,Event,6,Gain 2 Silvers. +1  per Silver you've gained this turn.,,,,,,,,2,+X
+Delve,Empires,Event,2,+1 BuyGain a Silver.,,,+1,,,,,1,
+Dominate,Empires,Event,14,"Gain a Province. If you do, +9 .",,,,,,,,1,"(6 ), !+9"
+Donate,Empires,Event,-8,"At the start of your next turn, first, put your deck and discard 
+pile into your hand, trash any number of cards from it, then shuffle the
+ rest into your deck and draw 5 cards.",,"N -X, N +5",,,X,,,,
+Ritual,Empires,Event,4,"Gain a Curse. If you do, trash a card from your hand. +1  per  it cost.",,,,,1,,Self,1,"(-1 ), +X"
+Salt the Earth,Empires,Event,4,+1 Trash a Victory card from the Supply.,,,,,1 Supply,,,,+1
+Tax,Empires,Event,2,"Add  to a Supply pile.Setup: Add  to each Supply pile. When a player gains a card in their Buy phase, they take the  from its pile.",,,,,,,,,
+Triumph,Empires,Event,-5,"Gain an Estate. If you did, +1  per card you've gained this turn.",,,,,,,,1,"(1 ), +X"
+Wedding,Empires,Event,4,+1 Gain a Gold.,,,,,,,,1,+1
+Windfall,Empires,Event,5,"If your deck and discard pile are empty, gain 3 Golds.",,,,,,,,!3,
+Aqueduct,Empires,Landmark,,"When you gain a Treasure, move 1  from its pile to this. When you gain a Victory card, take the   from this.Setup: Put 8  on the Silver and Gold piles.",,,,,,,,,+X
+Arena,Empires,Landmark,,"At the start of your Buy phase, you may discard an Action card. If you do, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Bandit Fort,Empires,Landmark,,"When scoring, –2  for each Silver and each Gold you have.",,,,,,,,,-X
+Basilica,Empires,Landmark,,"When you gain a card in your Buy phase, if you have  or more, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Battlefield,Empires,Landmark,,"When you gain a Victory card, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Baths,Empires,Landmark,,"When you end your turn without having gained a card, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Colonnade,Empires,Landmark,,"When you gain an Action card in your Buy phase, if you have a copy of it in play, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Defiled Shrine,Empires,Landmark,,"When you gain an Action, move 1  from its pile to this. When you gain a Curse in your Buy phase, take the   from this.Setup: Put 2  on each non-Gathering Action Supply pile.",,,,,,,,,+X
+Fountain,Empires,Landmark,,"When scoring, 15  if you have at least 10 Coppers.",,,,,,,,,!15
+Keep,Empires,Landmark,,"When scoring, 5  per differently named Treasure you have, that you have more copies of than each other player, or tied for most.",,,,,,,,,X
+Labyrinth,Empires,Landmark,,"When you gain a 2nd card in one of your turns, take 2  from here.Setup: Put 6  here per player.",,,,,,,,,+2
+Mountain Pass,Empires,Landmark,,"When you are the first player to gain a Province, each player bids once, up to , ending with you. High bidder gets +8  and takes the  they bid.",,,,,,,,,!+8
+Museum,Empires,Landmark,,"When scoring, 2  per differently named card you have.",,,,,,,,,X
+Obelisk,Empires,Landmark,,"When scoring, 2  per card you have from the chosen pile.Setup: Choose a random Action Supply pile.",,,,,,,,,X
+Orchard,Empires,Landmark,,"When scoring, 4  per differently named Action card you have 3 or more copies of.",,,,,,,,,X
+Palace,Empires,Landmark,,"When scoring, 3  per set you have of Copper - Silver - Gold.",,,,,,,,,X
+Tomb,Empires,Landmark,,"When you trash a card, +1 .",,,,,,,,,+1
+Tower,Empires,Landmark,,"When scoring, 1  per non-Victory card you have from an empty Supply pile.",,,,,,,,,X
+Triumphal Arch,Empires,Landmark,,"When scoring, 3  per copy you have of the 2nd most common Action card among your cards (if it’s a tie, count either).",,,,,,,,,X
+Wall,Empires,Landmark,,"When scoring, –1  per card you have after the first 15.",,,,,,,,,-X
+Wolf Den,Empires,Landmark,,"When scoring, –3  per card you have exactly one copy of.",,,,,,,,,-X
+Bard,Nocturne,Action - Fate,4,+Receive a Boon.,,,,+,,,,,
+Blessed Village,Nocturne,Action - Fate,4,"+1 Card+2 ActionsWhen you gain this, take a Boon. Receive it now or at the start of your next turn.",+2,+1,,,,,,,
+Cemetery,Nocturne,Victory,4,"2 When you gain this, trash up to 4 cards from your hand.Heirloom: Haunted Mirror",,,,,*0-4,,,,2
+Changeling,Nocturne,Night,3,"Trash this. Gain a copy of a card you have in play.In games using this, when you gain a card costing  or more, you may exchange it for a Changeling.",,,,,Self,,,1*Self,
+Cobbler,Nocturne,Night - Duration,5,"At the start of your next turn, gain a card to your hand costing up to .",,(+1),,,,,,N 1,
+Conclave,Nocturne,Action,4,"+You may play an Action card from your hand that you don't have a copy of in play. If you do, +1 Action.","P1?, +1?",,,+,,,,,
+Crypt,Nocturne,Night - Duration,5,"Set aside any number of non-Duration Treasures you have in play, 
+face down (under this). While any remain, at the start of each of your 
+turns, put one of them into your hand.",,"N +1, NN +1 ...",,,,,,,
+Cursed Village,Nocturne,Action - Doom,5,"+2 ActionsDraw until you have 6 cards in hand.When you gain this, receive a Hex.",+2,=6,,,,,,,
+Den of Sin,Nocturne,Night - Duration,5,"At the start of your next turn, +2 Cards.This is gained to your hand (instead of your discard pile).",,*(+Self)N +2,,,,,,,
+Devil's Workshop,Nocturne,Night,4,"If the number of cards you've gained this turn is:2+, gain an Imp;1, gain a card costing up to ;0, gain a Gold.",,,,,,,,1,
+Druid,Nocturne,Action - Fate,2,+1 BuyReceive one of the set-aside Boons (leaving it there).Setup: Set aside the top 3 Boons face up.,,,+1,,,,,,
+Exorcist,Nocturne,Night,4,Trash a card from your hand. Gain a cheaper Spirit from one of the Spirit piles.,,,,,1,,,1,
+Faithful Hound,Nocturne,Action - Reaction,2,"+2 CardsWhen you discard this other than during Clean-up, you may set it aside, and put it into your hand at end of turn.",,+2(N +Self),,,,,,,
+Fool,Nocturne,Action - Fate,3,"If you aren't the player with Lost in the Woods: take it, take 3 Boons, and receive the Boons in any order.Heirloom: Lucky Coin",,,,,,,,,
+Ghost Town,Nocturne,Night - Duration,3,"At the start of your next turn, +1 Card and +1 Action.This is gained to your hand (instead of your discard pile).",N +1,*(+Self)N +1,,,,,,,
+Guardian,Nocturne,Night - Duration,2,"At the start of your next turn, +. Until then, when another player plays an Attack card, it doesn't affect you.This is gained to your hand (instead of your discard pile).",,*(+Self),,N +,,,,,
+Idol,Nocturne,Treasure - Attack - Fate,5,"If you have an odd number of Idols in play (counting this), receive a Boon; otherwise, each other player gains a Curse.",,,,+,,,!1,,
+Leprechaun,Nocturne,Action - Doom,3,"Gain a Gold. If you have exactly 7 cards in play, gain a Wish. Otherwise, receive a Hex.",,,,,,,,"1, 1?",
+Monastery,Nocturne,Night,2,"For each card you've gained this turn, you may trash a card from your hand or a Copper you have in play.",,,,,X,,,,
+Necromancer,Nocturne,Action,4,"Choose a face up, non-Duration Action card in the trash. Turn it face down for the turn, and play it, leaving it there.Setup: Put the 3 Zombies into the trash.",(P1),,,,,,,,
+Night Watchman,Nocturne,Night,3,"Look at the top 5 cards of your deck, discard any number, and put the rest back in any order.This is gained to your hand (instead of your discard pile).",,*(+Self),,,,,,,
+Pixie,Nocturne,Action - Fate,2,+1 Card+1 ActionDiscard the top Boon. You may trash this to receive that Boon twice.Heirloom: Goat,+1,+1,,,Self?,,,,
+Pooka,Nocturne,Action,5,"You may trash a Treasure other than Cursed Gold from your hand, for +4 Cards.Heirloom: Cursed Gold",,!+4,,,1?,,,,
+Raider,Nocturne,Night - Duration - Attack,6,"Each other player with 5 or more cards in hand discards a copy of a card you have in play (or reveals they can't).At the start of your next turn, +.",,,,N +,,,,,
+Sacred Grove,Nocturne,Action - Fate,5,"+1 Buy+Receive a Boon. If it doesn't give +, each other player may receive it.",,,+1,+,,,,,
+Secret Cave,Nocturne,Action - Duration,3,"+1 Card+1 ActionYou may discard 3 cards. If you did, then at the start of your next turn, +.Heirloom: Magic Lamp",+1,"+1, -3?",,!N +,,,,,
+Shepherd,Nocturne,Action,4,"+1 ActionDiscard any number of Victory cards, revealing them. +2 Cards per card discarded.Heirloom: Pasture",+1,"-X, +2X",,,,,,,
+Skulk,Nocturne,Action - Attack - Doom,4,"+1 BuyEach other player receives the next Hex.When you gain this, gain a Gold.",,,+1,,,,,*1,
+Tormentor,Nocturne,Action - Attack - Doom,5,"+If you have no other cards in play, gain an Imp. Otherwise, each other player receives the next Hex.",,,,+,,,,!1,
+Tracker,Nocturne,Action - Fate,2,"+This turn, when you gain a card, you may put it onto your deck.Receive a Boon.Heirloom: Pouch",,,,+,,,,,
+Tragic Hero,Nocturne,Action,5,"+3 Cards+1 BuyIf you have 8 or more cards in hand (after drawing), trash this and gain a Treasure.",,+3,+1,,!Self,,,!1,
+Vampire,Nocturne,Night - Attack - Doom,5,Each other player receives the next Hex.Gain a card costing up to  other than a Vampire. Exchange this for a Bat.,,,,,Self,,,2,
+Werewolf,Nocturne,Action - Night - Attack - Doom,5,"If it's your Night phase, each other player receives the next Hex.Otherwise, +3 Cards.",,!+3,,,,,,,
+Bat,Nocturne,Night,2,"Trash up to 2 cards from your hand. If you trashed at least one, exchange this for a Vampire.(This is not in the Supply.)",,,,,"0-2?, !Self",,,!1,
+Cursed Gold,Nocturne,Treasure - Heirloom,4,Gain a Curse.,,,,+,,,Self,1,
+Ghost,Nocturne,Night - Duration - Spirit,4,"Reveal cards from your deck until you reveal an Action. Discard the 
+other cards and set aside the Action. At the start of your next turn, 
+play it twice.(This is not in the Supply.)",N P2,,,,,,,,
+Goat,Nocturne,Treasure - Heirloom,2,You may trash a card from your hand.,,,,+,1?,,,,
+Haunted Mirror,Nocturne,Treasure - Heirloom,0,"When you trash this, you may discard an Action card, to gain a Ghost.",,,,+,,,,*1?,
+Imp,Nocturne,Action - Spirit,2,+2 CardsYou may play an Action card from your hand that you don't have a copy of in play.(This is not in the Supply.),!P1?,+2,,,,,,,
+Lucky Coin,Nocturne,Treasure - Heirloom,4,Gain a Silver.,,,,+,,,,1,
+Magic Lamp,Nocturne,Treasure - Heirloom,0,"If there are at least 6 cards that you have exactly 1 copy of in play (counting this), trash this. If you did, gain 3 Wishes.",,,,+,!Self,,,!3,
+Pasture,Nocturne,Treasure - Victory - Heirloom,2,Worth 1  per Estate you have.,,,,+,,,,,X
+Pouch,Nocturne,Treasure - Heirloom,2,+1 Buy,,,+1,+,,,,,
+Will-o'-Wisp,Nocturne,Action - Spirit,0,"+1 Card+1 ActionReveal the top card of your deck. If it costs  or less, put it into your hand.(This is not in the Supply.)",+1,"+1, !+1",,,,,,,
+Wish,Nocturne,Action,0,"+1 ActionReturn this to its pile. If you did, gain a card to your hand costing up to .(This is not in the Supply.)",+1,(+1),,,Self,,,!1,
+Zombie Apprentice,Nocturne,Action - Zombie,3,You may trash an Action card from your hand for +3 Cards and +1 Action.,!+1,!+3,,,1?,,,,
+Zombie Mason,Nocturne,Action - Zombie,3,Trash the top card of your deck. You may gain a card costing up to  more than it.,,,,,1,,,1?,
+Zombie Spy,Nocturne,Action - Zombie,3,+1 Card+1 ActionLook at the top card of your deck. Discard it or put it back.,+1,+1,,,,,,,
+The Earth's Gift,Nocturne,Boon,,You may discard a Treasure to gain a card costing up to .,,-1?,,,,,,!1,
+The Field's Gift,Nocturne,Boon,,+1 Action+(Keep this until Clean-up.),+1,,,+,,,,,
+The Flame's Gift,Nocturne,Boon,,You may trash a card from your hand.,,,,,1?,,,,
+The Forest's Gift,Nocturne,Boon,,+1 Buy+(Keep this until Clean-up.),,,+1,+,,,,,
+The Moon's Gift,Nocturne,Boon,,Look through your discard pile. You may put a card from it onto your deck.,,,,,,,,,
+The Mountain's Gift,Nocturne,Boon,,Gain a Silver.,,,,,,,,1,
+The River's Gift,Nocturne,Boon,,+1 Card at the end of this turn.(Keep this until Clean-up.),,(N +1),,,,,,,
+The Sea's Gift,Nocturne,Boon,,+1 Card,,+1,,,,,,,
+The Sky's Gift,Nocturne,Boon,,You may discard 3 cards to gain a Gold.,,-3?,,,,,,!1,
+The Sun's Gift,Nocturne,Boon,,Look at the top 4 cards of your deck. Discard any number of them and put the rest back in any order.,,,,,,,,,
+The Swamp's Gift,Nocturne,Boon,,Gain a Will-o'-Wisp.,,,,,,,,1,
+The Wind's Gift,Nocturne,Boon,,+2 CardsDiscard 2 cards.,,"+2, -2",,,,,,,
+Bad Omens,Nocturne,Hex,,Put your deck into your discard pile. Look through it and put 2 Coppers from it onto your deck (or reveal you can't).,,,,,,,,,
+Delusion,Nocturne,Hex,,"If you don't have Deluded or Envious, take Deluded.",,,,,,,,,
+Envy,Nocturne,Hex,,"If you don't have Deluded or Envious, take Envious.",,,,,,,,,
+Famine,Nocturne,Hex,,Reveal the top 3 cards of your deck. Discard the Actions. Shuffle the rest into your deck.,,,,,,,,,
+Fear,Nocturne,Hex,,"If you have at least 5 cards in hand, discard an Action or Treasure (or reveal you can't).",,!-1,,,,,,,
+Greed,Nocturne,Hex,,Gain a Copper onto your deck.,,,,,,,Self,1,
+Haunting,Nocturne,Hex,,"If you have at least 4 cards in hand, put one of them onto your deck.",,!-1,,,,,,,
+Locusts,Nocturne,Hex,,"Trash the top card of your deck. If it's Copper or Estate, gain a 
+Curse. Otherwise, gain a cheaper card that shares a type with it.",,,,,1,,!Self,1,!(-1 )
+Misery,Nocturne,Hex,,"If this is your first Misery this game, take Miserable. Otherwise, flip it over to Twice Miserable.",,,,,,,,,-2
+Plague,Nocturne,Hex,,Gain a Curse to your hand.,,(+1),,,,,Self,1,(-1 )
+Poverty,Nocturne,Hex,,Discard down to 3 cards in hand.,,-X,,,,,,,
+War,Nocturne,Hex,,Reveal cards from your deck until revealing one costing  or . Trash it and discard the rest.,,,,,1,,,,
+Deluded,Nocturne,State,,"At the start of your Buy phase, return this, and you can't buy Actions this turn.",,,!(=0),,,,,,
+Envious,Nocturne,State,,"At the start of your Buy phase, return this, and Silver and Gold make  this turn.",,,,(-),,,,,
+Lost in the Woods,Nocturne,State,,"At the start of your turn, you may discard a card to receive a Boon.",,-1?,,,,,,,
+Miserable,Nocturne,State,,–2,,,,,,,,,-2
+Twice Miserable,Nocturne,State,,–4,,,,,,,,,-4
+Acting Troupe,Renaissance,Action,3,+4 VillagersTrash this.,+4,,,,Self,,,,
+Border Guard,Renaissance,Action,2,"+1 ActionReveal the top 2 cards of your deck. Put 
+one into your hand and discard the other. If both were Actions, take the
+ Lantern or Horn.",+1,+1,,,,,,,
+Cargo Ship,Renaissance,Action - Duration,3,"+Once
+ this turn, when you gain a card, you may set it aside face up (on 
+this). At the start of your next turn, put it into your hand.",,N (+1),,+,,,,,
+Ducat,Renaissance,Treasure,2,"+1 Coffers+1 BuyWhen you gain this, you may trash a Copper from your hand.",,,+1,+,*1,,,,
+Experiment,Renaissance,Action,3,"+2 Cards+1 ActionReturn this to its pile.When you gain this, gain another Experiment (that doesn't come with another).",+1,+2,,,Self,,,*1,
+Flag Bearer,Renaissance,Action,4,"+When you gain or trash this, take the Flag.",,,,+,,,,,
+Hideout,Renaissance,Action,4,"+1 Card+2 ActionsTrash a card from your hand. If it's a Victory card, gain a Curse.",+2,+1,,,1,,!Self,!1,
+Improve,Renaissance,Action,3,"+At the start of Clean-up, you may trash an Action card you would discard from play this turn, to gain a card costing exactly  more than it.",,,,+,*1?,,,!1,
+Inventor,Renaissance,Action,4,"Gain a card costing up to , then cards cost  less this turn.",,,,R1,,,,1,
+Lackeys,Renaissance,Action,2,"+2 CardsWhen you gain this, +2 Villagers.",*+2,+2,,,,,,,
+Mountain Village,Renaissance,Action,4,"+2 ActionsLook through your discard pile and put a card from it into your hand; if you can't, +1 Card.",+2,+1,,,,,,,
+Old Witch,Renaissance,Action - Attack,5,+3 CardsEach other player gains a Curse and may trash a Curse from their hand.,,+3,,,,,1,,
+Patron,Renaissance,Action - Reaction,4,"+1 Villager+When something causes you to reveal this (using the word “reveal”) in an Action phase, +1 Coffers.",+1,,,+*+,,,,,
+Priest,Renaissance,Action,4,"+Trash a card from your hand. For the rest of this turn, when you trash a card, +.",,,,"+, +",1,,,,
+Recruiter,Renaissance,Action,5,+2 CardsTrash a card from your hand. +1 Villager per  it costs.,+X,+2,,,1,,,,
+Research,Renaissance,Action - Duration,4,"+1 ActionTrash a card from your hand. Per  it costs, set aside a card from your deck face down (on this). At the start of your next turn, put those cards into your hand.",+1,N +X,,,1,,,,
+Scepter,Renaissance,Treasure - Command,5,Choose one: +; or replay an non-Command Action card you played this turn that's still in play.,P1?,,,+?,,,,,
+Scholar,Renaissance,Action,5,Discard your hand. +7 Cards.,,"-X, +7",,,,,,,
+Sculptor,Renaissance,Action,5,"Gain a card to your hand costing up to . If it's a Treasure, +1 Villager.",!+1,(+1),,,,,,1,
+Seer,Renaissance,Action,5,+1 Card+1 ActionReveal the top 3 cards of your deck. Put the ones costing from  to  into your hand. Put the rest back in any order.,+1,"+1, !+ 0-3",,,,,,,
+Silk Merchant,Renaissance,Action,4,"+2 Cards+1 BuyWhen you gain or trash this, +1 Coffers and +1 Villager.",*+1,+2,+1,*+,,,,,
+Spices,Renaissance,Treasure,5,"+1 BuyWhen you gain this, +2 Coffers.",,,+1,+*+,,,,,
+Swashbuckler,Renaissance,Action,5,"+3 CardsIf your discard pile has any cards in it: +1 Coffers, then if you have at least 4 Coffers tokens, take the Treasure Chest.",,+3,,!+,,,,,
+Treasurer,Renaissance,Action,5,+Choose one: Trash a Treasure from your hand; or gain a Treasure from the trash to your hand; or take the Key.,,(+1)?,,+,1?,,,1?,
+Villain,Renaissance,Action - Attack,5,+2 CoffersEach other player with 5 or more cards in hand discards one costing  or more (or reveals they can't).,,,,+,,,,,
+Academy,Renaissance,Project,5,"When you gain an Action card, +1 Villager.",**+1,,,,,,,,
+Barracks,Renaissance,Project,6,"At the start of your turn, +1 Action.",N... +1,,,,,,,,
+Canal,Renaissance,Project,7,"During your turns, cards cost  less.",,,,"R1, N... R1",,,,,
+Capitalism,Renaissance,Project,5,"During your turns, Actions with + amounts in their text are also Treasures.",(PX),,,,,,,,
+Cathedral,Renaissance,Project,3,"At the start of your turn, trash a card from your hand.",,,,,N... 1,,,,
+Citadel,Renaissance,Project,8,"The first time you play an Action card during each of your turns, replay it afterwards.",**P1,,,,,,,,
+City Gate,Renaissance,Project,3,"At the start of your turn, +1 Card, then put a card from your hand onto your deck.",,N... +1 -1,,,,,,,
+Crop Rotation,Renaissance,Project,6,"At the start of your turn, you may discard a Victory card for +2 Cards.",,N... -1? !+2,,,,,,,
+Exploration,Renaissance,Project,4,"At the end of your Buy phase, if you didn't gain any cards during it, +1 Coffers and +1 Villager.",**+1,,,**+,,,,,
+Fair,Renaissance,Project,4,"At the start of your turn, +1 Buy.",,,N... +1,,,,,,
+Fleet,Renaissance,Project,5,"After the game ends, there's an extra round of turns just for players with this.",,,,,,,,,
+Guildhall,Renaissance,Project,5,"When you gain a Treasure, +1 Coffers.",,,,**+,,,,,
+Innovation,Renaissance,Project,6,"Once during each of your turns, when you gain an Action card, you may play it.",**P1?,,,,,,,,
+Pageant,Renaissance,Project,3,"At the end of your Buy phase, you may pay  for +1 Coffers.",,,,N... -? !+,,,,,
+Piazza,Renaissance,Project,5,"At the start of your turn, reveal the top card of your deck. If it's an Action, play it.",N... !P1,,,,,,,,
+Road Network,Renaissance,Project,5,"When another player gains a Victory card, +1 Card.",,**+1,,,,,,,
+Sewers,Renaissance,Project,3,"When you trash a card other than with this, you may trash a card from your hand.",,,,,**1?,,,,
+Silos,Renaissance,Project,4,"At the start of your turn, discard any number of Coppers, revealed, and draw that many cards.",,N... -X +X,,,,,,,
+Sinister Plot,Renaissance,Project,4,"At the start of your turn, add a token here, or remove your tokens here for +1 Card each.",,+X?,,,,,,,
+Star Chart,Renaissance,Project,3,"When shuffling, you may pick one of the cards to go on top.",,,,,,,,,
+Flag,Renaissance,Artifact,,"When drawing your hand, +1 Card.",,(N +1),,,,,,,
+Horn,Renaissance,Artifact,,"Once per turn, when you discard a Border Guard from play, you may put it onto your deck.",,,,,,,,,
+Key,Renaissance,Artifact,,"At the start of your turn, +.",,,,+,,,,,
+Lantern,Renaissance,Artifact,,Border Guards you play reveal 3 cards and discard 2. (It takes all 3 being Actions to take the Horn.),,,,,,,,,
+Treasure Chest,Renaissance,Artifact,,"At the start of your Buy phase, gain a Gold.",,,,,,,,1,
+Animal Fair,Menagerie,Action,7,"++1 Buy per empty supply pile.Instead of paying this card's cost, you may trash an Action card from your hand.",,,+X,"+, !Rself",,,,,
+Barge,Menagerie,Action - Duration,5,"Either now or at the start of your next turn, +3 Cards and +1 Buy.",,"+3?, N +3?","+1?, N +1?",,,,,,
+Black Cat,Menagerie,Action - Attack - Reaction,2,"+2 CardsIf it isn't your turn, each other player gains a Curse.When another player gains a Victory card, you may play this from your hand.",**Pself,+2,,,,,!1,,
+Bounty Hunter,Menagerie,Action,4,"+1 ActionExile a card from your hand. If you didn't have a copy of it in Exile, +.",+1,-1,,!+,,1,,,
+Camel Train,Menagerie,Action,3,"Exile a non-Victory card from the Supply.When you gain this, Exile a Gold from the Supply.",,,,,,1 Supply*1 Supply,,,
+Cardinal,Menagerie,Action - Attack,4,"+Each other player reveals the top 2 cards of their deck, Exiles one costing from  to , and discards the rest.",,,,+,,,,,
+Cavalry,Menagerie,Action,4,"Gain 2 Horses.When you gain this, +2 Cards, +1 Buy, and if it's your Buy phase return to your Action phase.",,*+2,*+1,,,,,2,
+Coven,Menagerie,Action - Attack,5,"+1 Action+Each other player Exiles a Curse from the Supply. If they can't, they discard their Exiled Curses.",+1,,,+,,,!1,,
+Destrier,Menagerie,Action,6,"+2 Cards+1 ActionDuring your turn, this costs  less per card you've gained this turn.",+1,+2,,!Rself,,,,,
+Displace,Menagerie,Action,5,Exile a card from your hand. Gain a differently named card costing up to  more than it.,,-1,,,,1,,1,
+Falconer,Menagerie,Action - Reaction,5,"Gain a card to your hand costing less than this.When any player gains a card with 2 or more types (Action, Attack, etc.), you may play this from your hand.",,(+1),,,,,,1,
+Fisherman,Menagerie,Action,5,"+1 Card+1 Action+During your turns, if your discard pile is empty, this card cost  less.",+1,+1,,"+, !R3self",,,,,
+Gatekeeper,Menagerie,Action - Duration - Attack,5,"At the start of your next turn, +. Until then, when another player gains an Action or Treasure card they don't have an Exiled copy of, they Exile it.",,,,N +,,,,,
+Goatherd,Menagerie,Action,3,+1 ActionYou may trash a card from your hand.+1 Card per card the player to your right trashed on their last turn.,+1,+X,,,1?,,,,
+Groom,Menagerie,Action,4,"Gain a card costing up to  If it's an...Action card, gain a Horse;Treasure card, gain a Silver;Victory card, +1 Card and +1 Action.",!+1,!+1,,,,,,"1, !1",
+Horse,Menagerie,Action,3,+2 Cards+1 ActionReturn this to its pile.(This is not in the Supply.),+1,+2,,,Self,,,,
+Hostelry,Menagerie,Action,4,"+1 Card+2 ActionsWhen you gain this, you may discard any number of Treasures, revealed, to gain that many Horses.",+2,+1*-X,,,,,,*X,
+Hunting Lodge,Menagerie,Action,5,+1 Card+2 ActionYou may discard your hand for +5 Cards.,+2,"+1, -X?, !+5",,,,,,,
+Livery,Menagerie,Action,5,"+This turn, when you gain a card costing  or more, gain a Horse.",,,,+,,,,X,
+Mastermind,Menagerie,Action - Duration,5,"At the start of your next turn, you may play an Action card from your hand three times.",N P3?,,,,,,,,
+Paddock,Menagerie,Action,5,+Gain 2 Horses.+1 Action per empty Supply pile.,+X,,,+,,,,2,
+Sanctuary,Menagerie,Action,5,+1 Card+1 Action+1 BuyYou may Exile a card from your hand.,+1,"+1, -1?",+1,,,1?,,,
+Scrap,Menagerie,Action,3,Trash a card from your hand. Choose a different thing per  it costs: +1 Card; +1 Action; +1 Buy; +; gain a Silver; gain a Horse.,+1?,+1?,+1?,+?,1,,,0-2?,
+Sheepdog,Menagerie,Action - Reaction,3,"+2 CardsWhen you gain a card, you may play this from your hand.",*Pself,+2,,,,,,,
+Sleigh,Menagerie,Action - Reaction,2,"Gain 2 Horses.When you gain a card, you may discard this, to put that card into your hand or onto your deck.",,*-Self? !(+1)?,,,,,,2,
+Snowy Village,Menagerie,Action,3,+1 Card+4 Actions+1 BuyIgnore any further +Actions you get this turn.,"+4, -X",+1,+1,,,,,,
+Stockpile,Menagerie,Treasure,3,"+1 BuyWhen you play this, Exile it.",,,+1,+,,Self,,,
+Supplies,Menagerie,Treasure,2,"When you play this, gain a Horse onto your deck.",,,,+,,,,1,
+Village Green,Menagerie,Action - Duration - Reaction,4,"Either now or at the start of your next turn, +1 Card and +2 Actions.When you discard this other than during Clean-up, you may reveal it to play it.","+2?, N +2?*Pself","+1?, N +1?",,,,,,,
+Wayfarer,Menagerie,Action,6,"+3 CardsYou may gain a Silver.This has the same cost as the last other card gained this turn, if any.",,+3,,!Rself,,,,1?,
+Kiln,Menagerie,Action,5,"+The next time you play a card this turn, you may first gain a copy of it.",,,,+,,,,1?,
+Alliance,Menagerie,Event,10,"Gain a Province, a Duchy, an Estate, a Gold, a Silver, and a Copper.",,,,,,,,6,(10 )
+Banish,Menagerie,Event,4,Exile any number of cards with the same name from your hand.,,-X,,,,X,,,
+Bargain,Menagerie,Event,4,Gain a non-Victory card costing up to . Each other player gains a Horse.,,,,,,,,1,
+Commerce,Menagerie,Event,5,Gain a Gold per differently named card you've gained this turn.,,,,,,,,X,
+Delay,Menagerie,Event,0,"You may set aside an Action card from your hand. At the start of your next turn, play it.",!N P1,-1?,,,,,,,
+Demand,Menagerie,Event,5,"Gain a Horse and a card costing up to , both onto your deck.",,,,,,,,2,
+Desperation,Menagerie,Event,0,"Once per turn: You may gain a Curse. If you do, +1 Buy and +.",,,!+1,!+,,,Self?,1?,
+Enclave,Menagerie,Event,8,Gain a Gold. Exile a Duchy from the Supply.,,,,,,1 Supply,,1,(3 )
+Enhance,Menagerie,Event,3,"You may trash a non-Victory card from your hand, to gain a card costing up to  more than it.",,,,,1?,,,!1,
+Gamble,Menagerie,Event,2,"+1 BuyReveal the top card of your deck. If it's a Treasure or Action, you may play it. Otherwise, discard it.",!P1?,,+1,!P1?,,,,,
+Invest,Menagerie,Event,4,"Exile an Action card from the Supply. While it's in Exile, when another player gains or Invests in a copy of it, +2 Cards.",,**+2,,,,1 Supply,,,
+March,Menagerie,Event,3,Look through your discard pile. You may play an Action card from it.,P1?,,,,,,,,
+Populate,Menagerie,Event,10,Gain one card from each Action Supply pile.,,,,,,,,X,
+Pursue,Menagerie,Event,2,+1 BuyName a card. Reveal the top 4 cards from your deck. Put the matches back and discard the rest.,,,+1,,,,,,
+Reap,Menagerie,Event,7,"Gain a Gold. Set it aside. If you do, at the start of your next turn, play it.",,,,(N +),,,,1,
+Ride,Menagerie,Event,2,Gain a Horse.,,,,,,,,1,
+Seize the Day,Menagerie,Event,4,Once per game: Take an extra turn after this one.,,,,,,,,,
+Stampede,Menagerie,Event,5,"If you have 5 or fewer cards in play, gain 5 Horses onto your deck.",,,,,,,,5,
+Toil,Menagerie,Event,2,+1 BuyYou may play an Action card from your hand.,P1?,,+1,,,,,,
+Transport,Menagerie,Event,3,Choose one: Exile an Action card from the Supply; or put an Action card you have in Exile onto your deck.,,,,,,1 Supply?,,,
+Way of the Butterfly,Menagerie,Way,,You may return this to its pile to gain a card costing exactly  more than it.,,,,,1?,,,!1,
+Way of the Camel,Menagerie,Way,,Exile a Gold from the Supply.,,,,,,1 Supply,,,
+Way of the Chameleon,Menagerie,Way,,"Follow this card's instructions; each time that would give you +Cards this turn, you get + instead, and vice-versa.",,"-X, +Y",,"+, -",,,,,
+Way of the Frog,Menagerie,Way,,"+1 ActionWhen you discard this from play this turn, put it onto your deck.",+1,,,,,,,,
+Way of the Goat,Menagerie,Way,,Trash a card from your hand.,,,,,1,,,,
+Way of the Horse,Menagerie,Way,,+2 Cards+1 ActionReturn this to its pile.,+1,+2,,,Self,,,,
+Way of the Mole,Menagerie,Way,,+1 ActionDiscard your hand. +3 Cards.,+1,"-X, +3",,,,,,,
+Way of the Monkey,Menagerie,Way,,+1 Buy+,,,+1,+,,,,,
+Way of the Mouse,Menagerie,Way,,"Play the set-aside card, leaving it there.Setup: Set aside an unused Action costing  or .",(P1),,,,,,,,
+Way of the Mule,Menagerie,Way,,+1 Action+,+1,,,+,,,,,
+Way of the Otter,Menagerie,Way,,+2 Cards,,+2,,,,,,,
+Way of the Ox,Menagerie,Way,,+2 Actions,+2,,,,,,,,
+Way of the Owl,Menagerie,Way,,Draw until you have 6 cards in your hand.,,=6,,,,,,,
+Way of the Pig,Menagerie,Way,,+1 Card+1 Action,+1,+1,,,,,,,
+Way of the Rat,Menagerie,Way,,You may discard a Treasure to gain a copy of this.,,-1,,,,,,1,
+Way of the Seal,Menagerie,Way,,"+This turn, when you gain a card, you may put it onto your deck.",,,,+,,,,,
+Way of the Sheep,Menagerie,Way,,+,,,,+,,,,,
+Way of the Squirrel,Menagerie,Way,,+2 Cards at the end of this turn.,,(N +2),,,,,,,
+Way of the Turtle,Menagerie,Way,,"Set this aside. If you did, play it at the start of your next turn.",!N Pself,-1,,,,,,,
+Way of the Worm,Menagerie,Way,,Exile an Estate from the Supply.,,,,,,1 Supply,,,(1 )
+Acolyte,Allies,Action - Augur,4,You may trash an Action or Victory card from your hand to gain a Gold.You may trash this to gain an Augur.,,,,,"1?, Self?",,,"!1, !1",
+Archer,Allies,Action - Attack - Clash,4,"+Each other player with 5 or more cards in hand reveals all but one, and discards one of those you choose.",,,,+,,,,,
+Barbarian,Allies,Action - Attack,5,+Each other player trashes the top card of their deck. If it costs  or more they gain a cheaper card sharing a type with it; otherwise they gain a Curse.,,,,+,,,!1,,
+Battle Plan,Allies,Action - Clash,3,+1 Card+1 ActionYou may reveal an Attack card from your hand for +1 Card. You may rotate any Supply pile.,+1,"+1, +1?",,,,,,,
+Bauble,Allies,Treasure - Liaison,2,"Choose two different options:+1 Buy; +; +1 Favor; this turn, when you gain a card, you may put it onto your deck.",,,+1?,+?,,,,,
+Blacksmith,Allies,Action - Townsfolk,3,Choose one:Draw until you have 6 cards in hand;or +2 Cards; or +1 Card and +1 Action.,+1?,"=6?, +2?, +1?",,,,,,,
+Broker,Allies,Action - Liaison,4,Trash a card from your hand and choose one:+1 Card per  it costs;or +1 Action per  it costs; or + per  it costs; or +1 Favor per  it costs.,+X?,+X?,,+?,1,,,,
+Capital City,Allies,Action,5,+1 Card+2 ActionsYou may discard 2 cards for +.You may pay  for +2 Cards.,+2,"+1, -2?, !+2",,"-?, !+",,,,,
+Carpenter,Allies,Action,4,"If no Supply piles are empty, +1 Action and gain a card costing up to .Otherwise, trash a card from your hand and gain a card costing up to  more than it.",!+1,,,,!1,,,1,
+Conjurer,Allies,Action - Duration - Wizard,4,"Gain a card costing up to .At the start of your next turn, put this into your hand.",,N +Self,,,,,,1,
+Contract,Allies,Treasure - Duration - Liaison,5,+1 FavorYou may set aside an Action from your hand to play it at the start of your next turn.,N P1?,,,+,,,,,
+Courier,Allies,Action,4,+Discard the top card of your deck. Look through your discard pile; you may play an Action or Treasure from it.,P1?,,,"+, P1?",,,,,
+Distant Shore,Allies,Action - Victory - Odyssey,6,+2 Cards+1 ActionGain an Estate.2,+1,+2,,,,,,1,"2 , (1 )"
+Elder,Allies,Action - Townsfolk,5,"+You
+ may play an Action card from your hand. When it gives you a choice of 
+abilities (with “choose”) this turn, you may choose an extra (different)
+ option.",P1?,,,+,,,,,
+Emissary,Allies,Action - Liaison,5,"+3 CardsIf this made you shuffle (at least one card), +1 Action and +2 Favors.",!+1,+3,,,,,,,
+Galleria,Allies,Action,5,"+This turn, when you gain a card costing  or , +1 Buy.",,,+X,+,,,,,
+Garrison,Allies,Action - Duration - Fort,4,"+This turn, when you gain a card, add a token here. At the start of your next turn, remove them for +1 Card each.",,N +X,,+,,,,,
+Guildmaster,Allies,Action - Liaison,5,"+This turn, when you gain a card, +1 Favor.",,,,+,,,,,
+Herb Gatherer,Allies,Action - Augur,3,+1 BuyPut your deck into your discard pile. Look through it and you may play a Treasure from it.You may rotate the Augurs.,,,+1,P1?,,,,,
+Highwayman,Allies,Action - Duration - Attack,5,"At the start of your next turn, discard this from play and +3 Cards.Until then, the first Treasure each other player plays each turn does nothing.",,N +3,,,,,,,
+Hill Fort,Allies,Action - Fort,5,Gain a card costing up to . Choose one: Put it into your hand; or +1 Card and +1 Action.,+1?,"(+1)?, +1?",,,,,,1,
+Hunter,Allies,Action,5,"+1 ActionReveal the top 3 cards of your deck. From 
+those cards, put an Action, a Treasure, and a Victory card into your 
+hand. Discard the rest.",+1,+ 0-3,,,,,,,
+Importer,Allies,Action - Duration - Liaison,3,"At the start of your next turn, gain a card costing up to .Setup: Each player gets +4 Favors.",,,,,,,,N 1,
+Innkeeper,Allies,Action,4,"+1 ActionChoose one: +1 Card; or +3 Cards, then discard 3 cards; or +5 Cards, then discard 6 cards.",+1,+1 or +3 -3 or +5 -6 ?,,,,,,,
+Lich,Allies,Action - Wizard,6,"+6 Cards+2 ActionsSkip a turn.When you trash this, discard it and gain a cheaper card from the trash.",+2,+6,,,,,,*Self 1,
+Marquis,Allies,Action,6,+1 Buy+1 Card per card in your hand. Discard down to 10 cards in hand.,,"+X, -Y",+1,,,,,,
+Merchant Camp,Allies,Action,3,"+2 Actions+When you discard this from play, you may put it onto your deck.",+2,,,+,,,,,
+Miller,Allies,Action - Townsfolk,4,+1 ActionLook at the top 4 cards of your deck. Put one into your hand and discard the rest.,+1,+1,,,,,,,
+Modify,Allies,Action,5,Trash a card from your hand. Choose one: +1 Card and +1 Action; or gain a card costing up to  more than the trashed card.,+1?,+1?,,,1,,,1?,
+Old Map,Allies,Action - Odyssey,3,+1 Card+1 ActionDiscard a card. +1 Card.You may rotate the Odysseys.,+1,"+1, -1, +1",,,,,,,
+Royal Galley,Allies,Action - Duration,4,"+1 CardYou may play a non-Duration Action card from your hand. Set it aside; if you did, then at the start of your next turn, play it.","P1, N P1",+1,,,,,,,
+Sentinel,Allies,Action,3,Look at the top 5 cards of your deck. You may trash up to 2 of them. Put the rest back in any order.,,,,,0-2?,,,,
+Sibyl,Allies,Action - Augur,6,"+4 Cards+1 ActionPut a card from your hand on top of your deck, and another on the bottom.",+1,"+4, -2",,,,,,,
+Skirmisher,Allies,Action - Attack,5,"+1 Card+1 Action+This turn, when you gain an Attack card, each other player discards down to 3 cards in hand.",+1,+1,,+,,,,,
+Sorcerer,Allies,Action - Attack - Wizard,5,"+1 Card+1 ActionEach other player names a card, then reveals the top card of their deck. If wrong, they gain a Curse.",+1,+1,,,,,!1,,
+Sorceress,Allies,Action - Attack - Augur,5,"+1 ActionName a card. Reveal the top card of your 
+deck and put it into your hand. If it's the named card, each other 
+player gains a Curse.",+1,+1,,,,,!1,,
+Specialist,Allies,Action,5,You may play an Action or Treasure from your hand.Choose one: Play it again; or gain a copy of it.,"P1, P1?",,,"P1, P1?",,,,1?,
+Stronghold,Allies,Action - Victory - Duration - Fort,6,"Choose one: +; or at the start of your next turn, +3 Cards.2",,N +3?,,+?,,,,,2
+Student,Allies,Action - Wizard - Liaison,3,"+1 ActionYou may rotate the Wizards.Trash a card from your hand. If it's a Treasure, +1 Favor and put this onto your deck.",+1,,,,1,,,,
+Sunken Treasure,Allies,Treasure - Odyssey,5,Gain an Action card you don't have a copy of in play.,,,,,,,,1,
+Swap,Allies,Action,5,"+1 Card+1 ActionYou may return an Action from your hand to its pile, to gain to your hand a different Action costing up to .",+1,"+1, !(+1)",,,1?,,,!1,
+Sycophant,Allies,Action - Liaison,2,"+1 ActionDiscard 3 cards. If you discarded at least one, +.When you gain or trash this, +2 Favors.",+1,-3,,!+,,,,,
+Tent,Allies,Action - Fort,3,"+You may rotate the Forts.When you discard this from play, you may put it onto your deck.",,,,+,,,,,
+Territory,Allies,Victory - Clash,6,"Worth 1  per differently named Victory card you have.When you gain this, gain a Gold per empty Supply pile.",,,,,,,,*X,X
+Town,Allies,Action,4,Choose one:+1 Card and +2 Actions;or +1 Buy and +.,+2?,+1?,+1?,+?,,,,,
+Town Crier,Allies,Action - Townsfolk,2,Choose one: +; or gain a Silver; or +1 Card and +1 Action.You may rotate the Townsfolk.,+1?,+1?,,+?,,,,1?,
+Underling,Allies,Action - Liaison,3,+1 Card+1 Action+1 Favor,+1,+1,,,,,,,
+Voyage,Allies,Action - Duration - Odyssey,4,"+1 ActionTake an extra turn after this one (but not a 3rd turn in a row), during which you can only play 3 cards from your hand.",+1,,,,,,,,
+Warlord,Allies,Action - Duration - Attack - Clash,5,"+1 ActionAt the start of your next turn, +2 Cards. Until then, other players can't play an Action from their hand that they have 2 or more copies of in play.",+1,N +2,,,,,,,
+Architects' Guild,Allies,Ally,,"When you gain a card, you may spend 2 Favors to gain a cheaper non-Victory card.",,,,,,,,!1,
+Band of Nomads,Allies,Ally,,"When you gain a card costing  or more, you may spend a Favor, for +1 Card, or +1 Action, or +1 Buy.",!+1,!+1,!+1,,,,,,
+Cave Dwellers,Allies,Ally,,"At the start of your turn, you may spend a Favor, to discard a card then draw a card. Repeat as desired.",,"-1, +1",,,,,,,
+Circle of Witches,Allies,Ally,,"After playing a Liaison, you may spend 3 Favors to have each other player gain a Curse.",,,,,,,1,,
+City-state,Allies,Ally,,"When you gain an Action card during your turn, you may spend 2 Favors to play it.",*P1,,,,,,,,
+Coastal Haven,Allies,Ally,,"When discarding your hand in Clean-up, you may spend any number of Favors to keep that many cards in hand for next turn (you still draw 5).",,(N +X),,,,,,,
+Crafters' Guild,Allies,Ally,,"At the start of your turn, you may spend 2 Favors to gain a card costing up to  onto your deck.",,,,,,,,1,
+Desert Guides,Allies,Ally,,"At the start of your turn, you may spend a Favor to discard your hand and draw 5 cards. Repeat as desired.",,-X +5,,,,,,,
+Family of Inventors,Allies,Ally,,"At the start of your Buy phase, you may put a Favor token you have on a non-Victory Supply pile.Cards cost  less per Favor token on their piles.",,,,!R1,,,,,
+Fellowship of Scribes,Allies,Ally,,"After playing an Action, if you have 4 or fewer cards in hand, you may spend a Favor for +1 Card.",,!+1,,,,,,,
+Forest Dwellers,Allies,Ally,,"At the start of your turn, you may spend a Favor to look at the top 3 cards of your deck, discard any number and put the rest back in any order.",,,,,,,,,
+Gang of Pickpockets,Allies,Ally,,"At the start of your turn, discard down to 4 cards in hand unless you spend a Favor.",,-X,,,,,,,
+Island Folk,Allies,Ally,,"At the end of your turn, you may spend 5 Favors to take another turn (but not a 3rd turn in a row).",,,,,,,,,
+League of Bankers,Allies,Ally,,"At the start of your Buy phase, + per 4 Favors you have (round down).",,,,**+,,,,,
+League of Shopkeepers,Allies,Ally,,"After playing a Liaison, if you have 5 or more Favors, +,and if 10 or more, +1 Action and +1 Buy.",**+1?,,**+1?,**+?,,,,,
+Market Towns,Allies,Ally,,"At the start of your Buy phase, you may spend a Favor to play an Action card from your hand. Repeat as desired.",P1,,,,,,,,
+Mountain Folk,Allies,Ally,,"At the start of your turn, you may spend 5 Favors for +3 Cards.",,+3,,,,,,,
+Order of Astrologers,Allies,Ally,,"When shuffling, you may pick one card per Favor you spend to go on top.",,,,,,,,,
+Order of Masons,Allies,Ally,,"When shuffling, you may pick up to 2 cards per Favor you spend to put into your discard pile.",,,,,,,,,
+Peaceful Cult,Allies,Ally,,"At the start of your Buy phase, you may spend any number of Favors to trash that many cards from your hand.",,,,,X,,,,
+Plateau Shepherds,Allies,Ally,,"When scoring, pair up your Favors with cards you have costing , for 2  per pair.",,,,,,,,,X
+Trappers' Lodge,Allies,Ally,,"When you gain a card, you may spend a Favor to put it onto your deck.",,,,,,,,,
+Woodworkers' Guild,Allies,Ally,,"At the start of your Buy phase, you may spend a Favor to trash an Action card from your hand. If you did, gain an Action card.",,,,,1?,,,!1,
+Abundance,Plunder,Treasure - Duration,4,The next time you gain an Action card: +1 Buy and +.,,,**+1,**+,,,,,
+Buried Treasure,Plunder,Treasure - Duration,5,"At the start of your next turn, +1 Buy and +.When you gain this, play it.",*Pself,,N +1,N +,,,,,
+Cabin Boy,Plunder,Action - Duration,4,"+1 Card+1 ActionAt the start of your next turn, choose one: +; or trash this to gain a Duration card.",+1,+1,,N +?,N self?,,,!N 1,
+Cage,Plunder,Treasure - Duration,2,"Set aside up to 4 cards from your hand face down (on this). The next
+ time you gain a Victory card, trash this, and put the set aside cards 
+into your hand at end of turn.",,- 0-4(X)**(N +X),,,**Self,,,,
+Crew,Plunder,Action - Duration,5,"+3 CardsAt the start of your next turn, put this onto your deck.",,+3,,,,,,,
+Crucible,Plunder,Treasure,4,Trash a card from your hand. + per  it costs.,,,,+,1,,,,
+Cutthroat,Plunder,Action - Duration - Attack,5,"Each other player discards down to 3 cards in hand.The next time anyone gains a Treasure costing  or more, gain a Loot.",,,,,,,,**1,
+Enlarge,Plunder,Action - Duration,5,"Now and at the start of your next turn: Trash a card from your hand, and gain one costing up to  more.",,,,,"1, N 1",,,"1, N 1",
+Figurine,Plunder,Treasure,5,+2 CardsYou may discard an Action card for +1 Buy and +.,,"+2, -1?",!+1,!+,,,,,
+First Mate,Plunder,Action,5,"Play any number of Action cards with the same name from your hand, then draw until you have 6 cards in hand.",PX,=6,,,,,,,
+Flagship,Plunder,Action - Duration - Command,4,"+The next time you play a non-Command Action card, replay it.",**P1,,,+,,,,,
+Fortune Hunter,Plunder,Action,4,+Look at the top 3 cards of your deck. You may play a Treasure from them. Put the rest back in any order.,,,,"+, P1?",,,,,
+Frigate,Plunder,Action - Duration - Attack,5,"+Until
+ the start of your next turn, each time another player plays an Action 
+card, they discard down to 4 cards in hand afterwards.",,,,+,,,,,
+Gondola,Plunder,Treasure - Duration,4,"Either now or at the start of your next turn: +.When you gain this, you may play an Action card from your hand.",*P1,,,"+?, N +?",,,,,
+Grotto,Plunder,Action - Duration,2,"+1 ActionSet aside up to 4 cards from your hand face down (on this). At the start of your next turn, discard them, then draw as many.",+1,- 0-4(X)N +Y (X=Y),,,,,,,
+Harbor Village,Plunder,Action,4,"+1 Card+2 ActionsAfter the next Action you play this turn, if it gave you +, +.",+2,+1,,**+,,,,,
+Jewelled Egg,Plunder,Treasure,2,"+1 BuyWhen you trash this, gain a Loot.",,,+1,+,,,,*1,
+King's Cache,Plunder,Treasure,7,You may play a Treasure from your hand 3 times.,,,,P3?,,,,,
+Landing Party,Plunder,Action - Duration,4,"+2 Cards+2 ActionsThe next time the first card you play on a turn is a Treasure, put this onto your deck afterwards.",+2,+2,,,,,,,
+Longship,Plunder,Action - Duration,5,"+2 ActionsAt the start of your next turn, +2 Cards.",+2,N +2,,,,,,,
+Mapmaker,Plunder,Action - Reaction,4,"Look at the top 4 cards of your deck. Put 2 into your hand and discard the rest.When any player gains a Victory card, you may play this from your hand.",**Pself,+2,,,,,,,
+Maroon,Plunder,Action,4,"Trash a card from your hand.+2 Cards per type it has (Action, Attack, etc.).",,+X,,,1,,,,
+Mining Road,Plunder,Action,5,"+1 Action+1 Buy+Once this turn, when you gain a Treasure, you may play it.",+1,,+1,"+, !P1",,,,,
+Pendant,Plunder,Treasure,5,+ per differently named Treasure you have in play.,,,,+,,,,,
+Pickaxe,Plunder,Treasure,5,"Trash a card from your hand. If it costs  or more, gain a Loot to your hand.",,!(+1),,+,1,,,!1,
+Pilgrim,Plunder,Action,5,+4 CardsPut a card from your hand onto your deck.,,"+4, -1",,,,,,,
+Quartermaster,Plunder,Action - Duration,5,"At the start of each of your turns for the rest of the game, choose one: Gain a card costing up to , setting it aside on this; or put a card from this into your hand.",,N... +1?,,,,,,N... 1?,
+Rope,Plunder,Treasure - Duration,4,"+1 BuyAt the start of your next turn, +1 Card and you may trash a card from your hand.",,N +1,+1,+,N 1?,,,,
+Sack of Loot,Plunder,Treasure,6,+1 BuyGain a Loot.,,,+1,+,,,,1,
+Search,Plunder,Action - Duration,2,"+The next time a Supply pile empties, trash this and gain a Loot.",,,,+,,,,**1,
+Secluded Shrine,Plunder,Action - Duration,3,"+The next time you gain a Treasure, trash up to 2 cards from your hand.",,,,+,**2,,,,
+Shaman,Plunder,Action,2,"+1 Action+You may trash a card from your hand.In games using this, at the start of your turn, gain a card from the trash costing up to .",+1,,,+,1?,,N... !Self,N... 1,N... !(X )
+Silver Mine,Plunder,Treasure,5,Gain a Treasure costing less than this to your hand.,,(+1),,,,,,1,
+Siren,Plunder,Action - Duration - Attack,3,"Each other player gains a Curse. At the start of your next turn, draw until you have 8 cards in hand.When you gain this, trash it unless you trash an Action from your hand.",,N =8,,,*1 or Self ?,,1,,
+Stowaway,Plunder,Action - Duration - Reaction,3,"At the start of your next turn, +2 Cards.When anyone gains a Duration card, you may play this from your hand.",**Pself,N +2,,,,,,,
+Swamp Shacks,Plunder,Action,4,+2 Actions+1 Card per 3 cards you have in play (round down).,+2,+X,,,,,,,
+Taskmaster,Plunder,Action - Duration,3,"+1 Action, +, and if you gain a card costing exactly  this turn, then at the start of your next turn, repeat this ability.","+1, !N +1",,,"+, !N +",,,,,
+Tools,Plunder,Treasure,4,Gain a copy of a card anyone has in play.,,,,,,,,1,
+Trickster,Plunder,Action - Attack,5,"Each other player gains a Curse.Once this turn, when you discard a Treasure from play, you may set it aside. Put it in your hand at end of turn.",,!(N +1),,,,,1,,
+Wealthy Village,Plunder,Action,5,"+1 Card+2 ActionsWhen you gain this, if you have at least 3 differently named Treasures in play, gain a Loot.",+2,+1,,,,,,*1,
+Amphora,Plunder,Treasure - Duration - Loot,7,Either now or at the start of your next turn: +1 Buy and +.,,,"+1?, N +1?","+?, N +?",,,,,
+Doubloons,Plunder,Treasure - Loot,7,"When you gain this, gain a Gold.",,,,+,,,,1,
+Endless Chalice,Plunder,Treasure - Duration - Loot,7,Now and at the start of each of your turns for the rest of the game:+1 Buy,,,N... +1,N... +,,,,,
+Figurehead,Plunder,Treasure - Duration - Loot,7,"At the start of your next turn, +2 Cards.",,N +2,,+,,,,,
+Hammer,Plunder,Treasure - Loot,7,Gain a card costing up to .,,,,+,,,,1,
+Insignia,Plunder,Treasure - Loot,7,"This turn, when you gain a card, you may put it onto your deck.",,,,+,,,,,
+Jewels,Plunder,Treasure - Duration - Loot,7,"+1 BuyAt the start of your next turn, put this on the bottom of your deck.",,,+1,+,,,,,
+Orb,Plunder,Treasure - Loot,7,Look through your discard pile.Choose one: Play an Action or Treasure from it; or +1 Buy and +.,P1?,,+1?,"P1?, +?",,,,,
+Prize Goat,Plunder,Treasure - Loot,7,+1 BuyYou may trash a card from your hand.,,,+1,+,1?,,,,
+Puzzle Box,Plunder,Treasure - Loot,7,+1 BuyYou may set aside a card from your hand face down. Put it into your hand at end of turn.,,"-1, !(N +1)",+1,+,,,,,
+Sextant,Plunder,Treasure - Loot,7,+1 BuyLook at the top 5 cards of your deck. Discard any number. Put the rest back in any order.,,,+1,+,,,,,
+Shield,Plunder,Treasure - Reaction - Loot,7,"+1 BuyWhen another player plays an Attack, you may first reveal this from your hand to be unaffected.",,,+1,+,,,,,
+Spell Scroll,Plunder,Action - Treasure - Loot,7,"Trash this to gain a cheaper card. If it's an Action or Treasure, you may play it.",!P1?,,,!P1?,Self,,,1,
+Staff,Plunder,Treasure - Loot,7,+1 BuyYou may play an Action from your hand.,P1?,,+1,+,,,,,
+Sword,Plunder,Treasure - Attack - Loot,7,+1 BuyEach other player discards down to 4 cards in hand.,,,+1,+,,,,,
+Avoid,Plunder,Event,2,"+1 BuyThe next time you shuffle this turn, pick up to 3 of those cards to put into your discard pile.",,,+1,,,,,,
+Bury,Plunder,Event,1,+1 BuyPut any card from your discard pile on the bottom of your deck.,,,+1,,,,,,
+Deliver,Plunder,Event,2,"+1 BuyThis turn, each time you gain a card, set it aside, and put it into your hand at end of turn.",,(N +X),+1,,,,,,
+Foray,Plunder,Event,3,"Discard 3 cards, revealing them. If they have 3 different names, gain a Loot.",,-3,,,,,,!1,
+Invasion,Plunder,Event,10,You may play an Attack from your hand.Gain a Duchy. Gain an Action onto your deck.Gain a Loot; play it.,P1?,,,"P1?, P1",,,,3,(3 )
+Journey,Plunder,Event,4,You don't discard cards from play in Clean-up this turn. Take an extra turn after this one (but not a 3rd turn in a row).,,,,,,,,,
+Launch,Plunder,Event,3,"Once per turn: Return to your Action phase.+1 Card, +1 Action, and +1 Buy.",+1,+1,+1,,,,,,
+Looting,Plunder,Event,6,Gain a Loot.,,,,,,,,1,
+Maelstrom,Plunder,Event,4,Trash 3 cards from your hand. Each other player with 5 or more cards in hand trashes one of them.,,,,,3,,,,
+Mirror,Plunder,Event,3,"+1 BuyThe next time you gain an Action card this turn, gain a copy of it.",,,+1,,,,,1,
+Peril,Plunder,Event,2,You may trash an Action card from your hand to gain a Loot.,,,,,1?,,,!1,
+Prepare,Plunder,Event,3,"Set aside your hand face up.At the start of your next turn, play those Actions and Treasures in any order, then discard the rest.",N PX,,,N PX,,,,,
+Prosper,Plunder,Event,10,"Gain a Loot, plus any number of differently named Treasures.",,,,,,,,X,
+Rush,Plunder,Event,2,"+1 BuyThe next time you gain an Action card this turn, play it.",!P1,,+1,,,,,,
+Scrounge,Plunder,Event,3,"Choose one: Trash a card from your hand; or gain an Estate from the trash, and if you did, gain a card costing up to .",,,,,1?,,,"1?, !1",(1 ?)
+Cheap,Plunder,Trait,,Cheap cards cost  less.,,,,R1self,,,,,
+Cursed,Plunder,Trait,,"When you gain a Cursed card, gain a Loot and a Curse.",,,,,,,Self,2,(-1 )
+Fated,Plunder,Trait,,"When shuffling, you may look through the cards and reveal Fated cards to put them on the top or bottom.",,,,,,,,,
+Fawning,Plunder,Trait,,"When you gain a Province, gain a Fawning card.",,,,,,,,1,
+Friendly,Plunder,Trait,,"At the start of your Clean-up phase, you may discard a Friendly card to gain a Friendly card.",,,,,,,,1?,
+Hasty,Plunder,Trait,,"When you gain a Hasty card, set it aside, and play it at the start of your next turn.",N P1,,,,,,,,
+Inherited,Plunder,Trait,,Setup: You start the game with an Inherited card in place of a starting card you choose.,,,,,,,,,
+Inspiring,Plunder,Trait,,"After playing an Inspiring card on your turn, you may play an Action from your hand that you don't have a copy of in play.",P1?,,,,,,,,
+Nearby,Plunder,Trait,,"When you gain a Nearby card, +1 Buy.",,,*+1,,,,,,
+Patient,Plunder,Trait,,"At the start of your Clean-up phase, you may set aside Patient cards from your hand to play them at the start of your next turn.",N P1?,,,,,,,,
+Pious,Plunder,Trait,,"When you gain a Pious card, you may trash a card from your hand.",,,,,*1,,,,
+Reckless,Plunder,Trait,,"Follow the instructions of played Reckless cards twice. When discarding one from play, return it to its pile.",(Pself),,,,Self,,,,
+Rich,Plunder,Trait,,"When you gain a Rich card, gain a Silver.",,,,,,,,*1,
+Shy,Plunder,Trait,,"At the start of your turn, you may discard one Shy card for +2 Cards.",,"-Self?, !+2",,,,,,,
+Tireless,Plunder,Trait,,"When you discard a Tireless card from play, set it aside, and put it onto your deck at end of turn.",,,,,,,,,
+Alley,Rising Sun,Action - Shadow,4,+1 Card+1 ActionDiscard a card.You can play this from your deck as if in your hand.,+1,"+1, +1?, -1",,,,,,,
+Aristocrat,Rising Sun,Action,3,If the number of Aristrocrats you have in play is:1 or 5: +3 Actions;2 or 6: +3 Cards;3 or 7: +;4 or 8: +3 Buys.,!+3,!+3,!+3,!+,,,,,
+Artist,Rising Sun,Action,-8,+1 Action+1 Card per card you have exactly one copy of in play.,+1,+X,,,,,,,
+Change,Rising Sun,Action,4,"If you have any , +. Otherwise, trash a card from your hand, and gain a card costing more  than it. + equal to the difference in .",,,,"!+, !+",!1,,,!1,
+Craftsman,Rising Sun,Action,3,+Gain a card costing up to .,,,,+,,,,1,
+Daimyo,Rising Sun,Action - Command,-6,"+1 Card+1 ActionThe next time you play a non-Command Action card this turn, replay it afterwards.","+1,(P1)",+1,,,,,,,
+Fishmonger,Rising Sun,Action - Shadow,2,+1 Buy+You can play this from your deck as if in your hand.,,,+1,+,,,,,
+Gold Mine,Rising Sun,Action,5,+1 Card+1 Action+1 BuyYou may gain a Gold and get +.,+1,+1,+1,+?,,,,1?,
+Imperial Envoy,Rising Sun,Action,5,+5 Cards+1 Buy+,,+5,+1,+,,,,,
+Kitsune,Rising Sun,Action - Attack - Omen,5,+1Choose two different options: +2 Actions; +; each other player gains a Curse; gain a Silver.,+2?,,,+?,,,1?,1?,
+Litter,Rising Sun,Action,5,+2 Cards+2 Actions+,+2,+2,,+,,,,,
+Mountain Shrine,Rising Sun,Action - Omen,-5,"+1+You may trash a card from your hand. Then if there are any Action cards in the trash, +2 Cards.",,!+2,,+,1?,,,,
+Ninja,Rising Sun,Action - Attack - Shadow,4,+1 CardEach other player discards down to 3 cards in hand.You can play this from your deck as if in your hand.,,+1,,,,,,,
+Poet,Rising Sun,Action - Omen,4,"+1+1 Card+1 ActionReveal the top card of your deck. If it costs  or less, put it into your hand.",+1,"+1, !+1",,,,,,,
+Rice,Rising Sun,Treasure,7,+1 Buy+ per different type among cards you have in play.,,,+1,+,,,,,
+Rice Broker,Rising Sun,Action,5,"+1 ActionTrash a card from your hand. If it's a Treasure, +2 Cards. If it's an Action, +5 Cards.",+1,"!+2,!+5",,,1,,,,
+River Shrine,Rising Sun,Action - Omen,4,"+1Trash
+ up to 2 cards from your hand. At the start of Clean-up, if you didn't 
+gain any cards during your Buy phase this turn, gain a card costing up 
+to .",,,,,0-2,,,!1,
+Riverboat,Rising Sun,Action - Duration,3,"At the start of your next turn, play the set aside card, leaving it there.Setup: Set-aside an unused non-Duration Action card costing .",,,,,,,,,
+Ronin,Rising Sun,Action - Shadow,5,Draw until you have 7 cards in hand.You can play this from your deck as if in your hand.,,=7,,,,,,,
+Root Cellar,Rising Sun,Action,3,+3 Cards+1 Action+,+1,+3,,+,,,,,
+Rustic Village,Rising Sun,Action - Omen,4,+1+1 Card+2 ActionsYou may discard 2 cards for +1 Card.,+2,"+1,-2?,!+1",,,,,,,
+Samurai,Rising Sun,Action - Duration - Attack,6,"Each other player discards down to 3 cards in hand (once).At the start of each of your turns this game, +.(This stays in play.)",,,,N... +,,,,,
+Snake Witch,Rising Sun,Action - Attack,2,"+1 Card+1 ActionIf your hand has no duplicate cards, you may reveal it and return this to its pile, to have each other play gain a Curse.",+1,+1,,,!Self,,!1,,
+Tanuki,Rising Sun,Action - Shadow,5,Trash a card from your hand. Gain a card costing up to  more than it.You can play this from your deck as if in your hand.,,,,,1,,,1,
+Tea House,Rising Sun,Action - Omen,5,+1+1 Card+1 Action+,+1,+1,,+,,,,,
+Amass,Rising Sun,Event,2,"If you have no Action cards in play, gain an Action card costing up to .",,,,,,,,!1,
+Asceticism,Rising Sun,Event,2,Pay any amount of  to trash that many cards from your hand.,,,,-,X,,,,
+Continue,Rising Sun,Event,-8,Once per turn: Gain a non-Attack Action card costing up to . Return to your Action phase and play it. +1 Action and +1 Buy.,+1,,+1,,,,,1,
+Credit,Rising Sun,Event,2,Gain an Action or Treasure costing up to . + equal to its cost.,,,,+,,,,1,
+Foresight,Rising Sun,Event,2,Reveal cards from your deck until revealing an Action. Set it aside and discard the rest. Put it into your hand at end of turn.,,(N+1),,,,,,,
+Gather,Rising Sun,Event,7,"Gain a card costing exactly , a card costing exactly , and a card costing exactly .",,,,,,,,3,
+Kintsugi,Rising Sun,Event,3,"Trash a card from your hand. If you've gained a Gold this game, gain a card costing up to  more than the trashed card.",,,,,1,,,!1,
+Practice,Rising Sun,Event,3,You may play an Action card from your hand twice.,P2?,,,,,,,,
+Receive Tribute,Rising Sun,Event,5,"If you've gained at least 3 cards this turn, gain up to 3 differently named Action cards you don't have copies of in play.",,,,,,,,0-3,
+Sea Trade,Rising Sun,Event,4,+1 Card per Action card you have in play. Trash up to that many cards from your hand.,,+X,,,,,,X,
+Approaching Army,Rising Sun,Prophecy,,"After you play an Attack card, +.Setup: Add an Attack kingdom card pile to the Supply.",,,,**+,,,,,
+Biding Time,Rising Sun,Prophecy,,"At the start of your Clean-up, set aside your hand face down. At the start of your next turn, put those cards into your hand.",,"(-X,N+X)",,,,,,,
+Bureaucracy,Rising Sun,Prophecy,,"When you gain a card that doesn't cost , gain a Copper.",,,,,,,,**1,
+Divine Wind,Rising Sun,Prophecy,,"When you remove the last , remove all Kingdom card piles from the Supply, and set up 10 new random piles.",,,,,,,,,
+Enlightenment,Rising Sun,Prophecy,,"Treasures are also Actions. When you play a Treasure in an Action phase, instead of following its instructions, +1 Card and +1 Action.",**+1,**+1,,,,,,,
+Flourishing Trade,Rising Sun,Prophecy,,Cards cost  less.You may use Action plays as Buys.,,,+X,"R1, N... R1",,,,,
+Good Harvest,Rising Sun,Prophecy,,"The first time you play each differently named Treasure each turn, first, +1 Buy and +.",,,**+1,**+,,,,,
+Great Leader,Rising Sun,Prophecy,,"After each Action card you play, +1 Action.",**+1,,,,,,,,
+Growth,Rising Sun,Prophecy,,"When you gain a Treasure, gain a cheaper card.",,,,,,,,**1,
+Harsh Winter,Rising Sun,Prophecy,,"When you gain a card on your turn, if there's  on its pile, take it; otherwise put  on its pile.",,,,**+,,,,,
+Kind Emperor,Rising Sun,Prophecy,,"At the start of your turn, and when you remove the last : Gain an Action to your hand.",,**+1,,,,,,**1,
+Panic,Rising Sun,Prophecy,,"When you play a treasure, +2 Buys, and when you discard one from play, return it to its pile.",,,**+2,,**1,,,,
+Progress,Rising Sun,Prophecy,,"When you gain a card, put it onto your deck.",,,,,,,,,
+Rapid Expansion,Rising Sun,Prophecy,,"When you gain an Action or Treasure, set it aside, and play it at the start of your next turn.",,,,,,,,,
+Sickness,Rising Sun,Prophecy,,"At the start of your turn, choose one: Gain a Curse onto your deck; or discard 3 cards.",,**-3?,,,,,**Self?,**1?,
+Avanto,Promo,Action,5,+3 CardsYou may play a Sauna from your hand.,P1?,+3,,,,,,,
+Black Market,Promo,Action,3,"+
+ Reveal the top 3 cards of the Black Market deck. Play any number of 
+Treasures from your hand. You may buy one of the revealed cards. Put the
+ rest on the bottom of the Black Market deck in any order.Setup: Make a Black Market deck out of different unused Kingdom cards.",,,(+1),+,,,,,
+Captain,Promo,Action - Duration - Command,6,"Now and at the start of your next turn:Play a non-Duration non-Command Action card from the Supply costing up to , leaving it there.","(P1), (N P1)",,,,,,,,
+Church,Promo,Action - Duration,3,"+1 ActionSet aside up to 3 cards from your hand face
+ down. At the start of your next turn, put them into your hand, then you
+ may trash a card from your hand.",+1,"- 0-3(X), N +X",,,N 1?,,,,
+Dismantle,Promo,Action,4,"Trash a card from your hand. If it costs  or more, gain a cheaper card and a Gold.",,,,,1,,,!2,
+Envoy,Promo,Action,4,Reveal the top 5 cards of your deck. The player to your left chooses one. Discard that one and put the rest into your hand.,,"+5, !-1",,,,,,,
+Governor,Promo,Action,5,+1 ActionChoose one; you get the version in parentheses: Each player gets +1 (+3) Cards; or each player gains a Silver (Gold); or each player may trash a card from their hand and gain a card costing exactly  () more.,+1,+3?,,,1?,,,"1?, !1",
+Marchland,Promo,Victory,5,"Worth 1  per 3 Victory cards you have (round down).When you gain this, +1 Buy, and discard any number of cards for + each.",,,*+1,*+,,,,,X
+Prince,Promo,Action - Duration - Command,8,"You may set aside (on this) a non-Duration, non-Command Action card from your hand costing up to . At the start of each of your turns, play that card, leaving it set aside.",N... P1,,,,,,,,
+Sauna,Promo,Action,4,"+1 Card+1 ActionYou may play an Avanto from your hand.This turn, when you play a Silver, you may trash a card from your hand.","+1, P1?",+1,,,X?,,,,
+Stash,Promo,Treasure,5,"When shuffling this, you may look through your remaining deck, and may put this anywhere in the shuffled cards.",,,,+,,,,,
+Summon,Promo,Event,5,"Gain an Action card costing up to . Set it aside. If you did, then at the start of your next turn, play it.",N P1,,,,,,,1,
+Walled Village,Promo,Action,4,"+1 Card+2 ActionsAt the start of Clean-up, if you have this and no more than one other Action card in play, you may put this onto your deck.",+2,+1,,,,,,,
